@@ -49,10 +49,10 @@ main { max-width: 1040px; margin: 0 auto; padding: 0 20px; }
 .win .bar small { margin-left: auto; font-weight: 400; color: #AEB2BA; letter-spacing: 0; }
 .win .body { display: grid; grid-template-columns: 34% 1fr; min-height: 250px; }
 .win .list { border-right: 1px solid var(--rule); padding: 12px 10px; font-size: 12px; display: grid; gap: 4px; align-content: start; }
-.win .list span { padding: 6px 8px; border-radius: 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--ink-2); }
+.win .list span { padding: 6px 10px; border-radius: 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--ink-2); }
 .win .list span.on { background: var(--pen-soft); color: var(--ink); font-weight: 600; }
 .win .list span i { font-style: normal; color: var(--dot); margin-right: 4px; }
-.win .doc { padding: 16px 18px; font-size: 12px; color: var(--ink-2); min-width: 0; }
+.win .doc { padding: 16px 20px; font-size: 12px; color: var(--ink-2); min-width: 0; }
 .win .doc b { display: block; font-family: var(--font-title); color: var(--ink); font-size: 17px; margin-bottom: 8px; letter-spacing: -.02em; }
 .win .doc .h { color: var(--ink); font-weight: 700; margin: 10px 0 2px; }
 .win .doc .t::before { content: ""; display: inline-block; width: 10px; height: 10px; border: 1.5px solid var(--ink-3); border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
@@ -63,7 +63,7 @@ main { max-width: 1040px; margin: 0 auto; padding: 0 20px; }
 .feats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0; border-top: 1px solid var(--rule); }
 .feat { padding: 28px 24px 28px 0; border-bottom: 1px solid var(--rule); }
 .feat:nth-child(3n+2), .feat:nth-child(3n) { padding-left: 24px; border-left: 1px solid var(--rule); }
-.feat h3 { margin: 0 0 6px; font-size: 17px; letter-spacing: -.02em; }
+.feat h2 { margin: 0 0 6px; font-size: 17px; letter-spacing: -.02em; }
 .feat p { margin: 0; color: var(--ink-2); font-size: 15px; }
 
 .safe { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr); gap: 40px; padding: 64px 0; }

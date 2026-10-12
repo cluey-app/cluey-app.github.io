@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>개인정보처리방침 — Cluey</title>
-<meta name="description" content="Cluey 개인정보처리방침: 메모는 내 PC 와 내 구글 드라이브의 Cluey 전용 칸에만 저장되고, 개발자는 아무 정보도 받지 않습니다.">
+<meta name="description" content="Cluey 개인정보처리방침: 메모는 내 PC 와 내 구글 드라이브의 Cluey 전용 칸에 저장됩니다. 메모 보내기를 쓸 때만 꼭 필요한 정보와 받는 사람만 열 수 있게 잠근 메모를 보내기 서버에 잠시 맡깁니다.">
 <link rel="icon" href="logo.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,9 +24,9 @@
 <main>
 <article class="doc-page">
   <h1>개인정보처리방침</h1>
-  <p class="meta">시행일 2026년 10월 8일</p>
+  <p class="meta">시행일 2026년 10월 12일 (메모 보내기 추가)</p>
 
-  <div class="box"><p><strong>요약</strong> — Cluey 에는 서버가 없습니다. 메모는 여러분의 PC 와, 동기화를 켠 경우 <strong>여러분 본인의 구글 드라이브 안 Cluey 전용 숨은 칸</strong>에만 저장됩니다. Cluey 를 만든 사람은 여러분의 메모나 개인정보를 받거나 볼 수 없습니다.</p></div>
+  <div class="box"><p><strong>요약</strong> — 메모는 여러분의 PC 와, 동기화를 켠 경우 <strong>여러분 본인의 구글 드라이브 안 Cluey 전용 숨은 칸</strong>에 저장됩니다. <strong>메모 보내기</strong>를 쓸 때만, 보내기에 꼭 필요한 정보(구글 이메일 주소 · 공개 열쇠 · 친구 목록)와 <strong>받는 사람만 열 수 있게 잠근 메모</strong>를 Cluey 보내기 서버에 잠시 맡깁니다. Cluey 를 만든 사람은 여러분의 메모 내용을 볼 수 없습니다.</p></div>
 
   <h2>1. Cluey 가 다루는 정보</h2>
   <div class="table"><table>
@@ -36,6 +36,10 @@
       <tr><th>위와 같은 메모 자료 (동기화를 켠 경우)</th><td>내 구글 드라이브의 앱 전용 숨은 칸 (appDataFolder)</td><td>같은 구글 계정으로 로그인한 내 PC 들끼리 메모를 맞추려고</td></tr>
       <tr><th>구글 계정 이메일 주소</th><td>내 PC (암호화)</td><td>설정 화면에 어느 계정으로 로그인했는지 보여 주려고</td></tr>
       <tr><th>구글 로그인 정보 (토큰)</th><td>내 PC (윈도우 DPAPI 로 암호화)</td><td>동기화할 때마다 다시 로그인하지 않으려고</td></tr>
+      <tr><th>구글 계정 이메일 주소 (메모 보내기를 쓴 경우)</th><td>Cluey 보내기 서버</td><td>보내는 사람과 받는 사람을 알아보려고</td></tr>
+      <tr><th>보내기 열쇠</th><td>공개 열쇠: 보내기 서버 · 푸는 열쇠: 내 PC(암호화)와 내 구글 드라이브 숨은 칸</td><td>받는 사람만 메모를 열 수 있게 잠그려고</td></tr>
+      <tr><th>친구 목록 · 친구 요청 (이메일 주소, 내가 붙인 이름)</th><td>Cluey 보내기 서버</td><td>친구 요청 · 수락과 보내기에 쓰려고. 내가 붙인 이름은 나만 보이고, 내 다른 PC 에서도 같이 보입니다</td></tr>
+      <tr><th>보낸 메모</th><td>Cluey 보내기 서버 (받는 사람의 열쇠로 잠근 채)</td><td>받는 사람이 받을 때까지 맡아 두려고. 받거나 거절하면 바로, 아니면 30일 뒤 지웁니다</td></tr>
       <tr><th>이 PC 이름</th><td>내 PC, 동기화한 메모 자료</td><td>두 PC 에서 같은 메모를 고쳤을 때 "충돌 사본" 에 어느 PC 것인지 적으려고</td></tr>
     </tbody>
   </table></div>
@@ -45,23 +49,27 @@
   <p>동기화는 고를 수 있는 기능이며, 켜려면 구글 계정으로 로그인합니다. Cluey 가 요청하는 권한은 다음뿐입니다.</p>
   <ul>
     <li><code>https://www.googleapis.com/auth/drive.appdata</code> — 구글 드라이브 안 <strong>Cluey 전용 숨은 칸</strong>의 파일만 만들고, 읽고, 고치고, 지웁니다. 드라이브의 다른 파일과 폴더는 볼 수 없습니다.</li>
-    <li><code>openid</code>, <code>email</code> — 로그인한 계정의 이메일 주소를 설정 화면에 보여 주는 데만 씁니다.</li>
+    <li><code>openid</code>, <code>email</code> — 로그인한 계정의 이메일 주소를 설정 화면에 보여 주고, 메모 보내기에서 보내는 사람 · 받는 사람을 알아보는 데 씁니다.</li>
   </ul>
-  <p>구글에서 받은 정보는 여러분의 PC 와 여러분의 구글 드라이브 사이에서만 오가며, Cluey 개발자를 포함한 누구에게도 보내지 않습니다. 팔거나 광고에 쓰거나 사람이 읽지 않습니다.</p>
+  <p>구글에서 받은 정보는 여러분의 PC 와 여러분의 구글 드라이브 사이에서만 오갑니다. 단, 메모 보내기를 쓰면 로그인한 계정의 <strong>이메일 주소</strong>가 Cluey 보내기 서버로 가서, 보내는 사람과 받는 사람을 알아보는 데만 쓰입니다. 그 밖의 용도로 쓰거나 팔거나 광고에 쓰거나 사람이 읽지 않습니다.</p>
   <p>Cluey 가 Google API 에서 받은 정보를 사용하고 다른 곳으로 옮기는 것은 <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API 서비스 사용자 데이터 정책</a>의 제한적 사용(Limited Use) 요건을 포함해 그 정책을 따릅니다.</p>
 
   <h2>3. 잠근 메모</h2>
   <p>비밀번호로 잠근 메모는 내 PC 에서 암호화(AES-GCM)되어 저장되고, 동기화할 때도 암호화된 채로 구글 드라이브에 올라갑니다. 비밀번호는 어디에도 저장하지 않으므로, 잊으면 개발자도 메모를 열 수 없습니다.</p>
 
+  <h2>3-1. 메모 보내기</h2>
+  <p>메모 보내기는 Cluey 를 쓰는 사람끼리 메모를 전달하는 고를 수 있는 기능입니다. 사람마다 열쇠 한 쌍(X25519)을 만들어, 공개 열쇠만 보내기 서버에 올립니다. 메모를 보낼 때는 <strong>받는 사람의 공개 열쇠로 내 PC 에서 잠근 뒤</strong>(AES-GCM) 서버에 맡기므로, 서버와 Cluey 를 만든 사람은 메모의 제목과 내용을 볼 수 없습니다. 푸는 열쇠는 내 PC 와 내 구글 드라이브의 숨은 칸에만 있습니다.</p>
+
   <h2>4. 보관 기간과 지우는 방법</h2>
   <ul>
     <li><strong>내 PC</strong>: 메모는 지울 때까지 남습니다. 프로그램을 지운 뒤 <code>문서\Cluey</code> 폴더를 지우면 모두 사라집니다.</li>
     <li><strong>로그인 정보</strong>: Cluey 의 설정 → 동기화 → <strong>로그아웃</strong> 을 누르면 PC 에서 지우고 구글에도 권한을 돌려줍니다. 구글 계정의 <a href="https://myaccount.google.com/permissions">서드 파티 앱 및 서비스</a>에서 Cluey 를 지워도 됩니다.</li>
+    <li><strong>보내기 서버의 정보</strong>: 보낸 메모는 받거나 거절하면 바로, 아니면 30일 뒤 지웁니다. 메모 ⋯ → 보내기 창의 <strong>내 보내기 정보 지우기</strong> 를 누르면 서버의 내 이메일 · 공개 열쇠 · 친구 목록 · 받기 전 메모를 모두 지웁니다. 아래 문의 메일로 요청해도 됩니다.</li>
     <li><strong>구글 드라이브의 메모 자료</strong>: 구글 드라이브 웹 → 설정 → <strong>앱 관리</strong> → Cluey → <strong>숨겨진 앱 데이터 삭제</strong> 로 모두 지울 수 있습니다.</li>
   </ul>
 
   <h2>5. 다른 곳에 주거나 맡기기</h2>
-  <p>Cluey 는 개인정보를 다른 사람이나 회사에 주지 않고, 처리를 맡기지도 않습니다. 동기화한 자료는 여러분이 구글과 맺은 약관에 따라 구글 드라이브에 보관됩니다.</p>
+  <p>Cluey 는 개인정보를 다른 사람이나 회사에 팔거나 주지 않습니다. 동기화한 자료는 여러분이 구글과 맺은 약관에 따라 구글 드라이브에 보관됩니다. 메모 보내기 서버는 <strong>Cloudflare, Inc.</strong>(클라우드플레어 Workers · D1) 위에서 돌아가며, 위 1번 표의 보내기 정보가 그곳에 보관됩니다. 메모 내용은 잠긴 채로만 보관되어 클라우드플레어도 볼 수 없습니다.</p>
 
   <h2>6. 어린이</h2>
   <p>Cluey 는 만 14세 미만 어린이를 대상으로 하지 않으며, 어린이의 정보를 따로 모으지 않습니다.</p>
@@ -74,10 +82,10 @@
 
   <section class="en" lang="en">
     <h2>Summary in English</h2>
-    <p>Cluey is an offline note-taking app for Windows. It has no server. Notes are stored on the user's PC and, only if the user turns on sync, in the hidden application data folder (appDataFolder) of the user's own Google Drive.</p>
-    <p>Cluey requests the <code>drive.appdata</code> scope to create, read, update and delete its own files in that folder, and <code>openid</code>/<code>email</code> to show which account is signed in. It cannot see any other Drive files. Google user data is transferred only between the user's PC and the user's own Google Drive; it is never sent to the developer or any third party, never sold, never used for advertising, and never read by humans. Refresh tokens are stored on the PC encrypted with Windows DPAPI. Password-locked notes are uploaded encrypted.</p>
+    <p>Cluey is a note-taking app for Windows. Notes are stored on the user's PC and, only if the user turns on sync, in the hidden application data folder (appDataFolder) of the user's own Google Drive. Only when the user uses the optional "send a note" feature, Cluey's relay server (hosted on Cloudflare Workers/D1) stores the user's Google email address, a public key, the user's friend list and friend requests (email addresses and the nicknames the user gives friends, visible only to that user), and notes that are end-to-end encrypted with the recipient's public key until the recipient accepts or rejects them (at most 30 days). The developer and Cloudflare cannot read the notes.</p>
+    <p>Cluey requests the <code>drive.appdata</code> scope to create, read, update and delete its own files in that folder, and <code>openid</code>/<code>email</code> to show which account is signed in and, for the send feature, to identify sender and recipient on the relay server. It cannot see any other Drive files. Apart from the email address used by the send feature, Google user data is transferred only between the user's PC and the user's own Google Drive; it is never sold, never used for advertising, and never read by humans. Refresh tokens are stored on the PC encrypted with Windows DPAPI. Password-locked notes are uploaded encrypted.</p>
     <p>Cluey's use and transfer of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
-    <p>Users can sign out in Settings → Sync (which revokes the token), remove Cluey at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>, and delete Cluey's hidden app data from Google Drive settings → Manage apps. Contact: <a href="mailto:kyg6135@naver.com">kyg6135@naver.com</a>.</p>
+    <p>Users can delete their relay-server data at any time with "내 보내기 정보 지우기" in the send dialog, or by email. Users can sign out in Settings → Sync (which revokes the token), remove Cluey at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>, and delete Cluey's hidden app data from Google Drive settings → Manage apps. Contact: <a href="mailto:kyg6135@naver.com">kyg6135@naver.com</a>.</p>
   </section>
 </article>
 </main>

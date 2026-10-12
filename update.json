@@ -1,8 +1,8 @@
 {
-  "version": "1.0.3",
-  "url": "https://github.com/cluey-app/cluey/releases/download/v1.0.3/Cluey-Setup-1.0.3.exe",
-  "sha256": "4e11c36f92ffe8ea8512782f115e573a2b786547f237c990b722827ee76bae84",
-  "size": 137197509,
-  "notes": "메모 탭 · 창 단추를 띠 안으로 · 작성자 칸 · 오른쪽 화면도 고치기 · 메모만 확대·축소 · 고른 폴더에 새 메모",
-  "sig": "84bqM1eqshqtVw/FZ0BdIF6JleJX5XT6MxUHyaAQIvx714X7HxgcPQSbfR0MrpNrRqetDbnFIE2YmE+7Y5S/CA=="
+  "version": "1.0.4",
+  "url": "https://github.com/cluey-app/cluey/releases/download/v1.0.4/Cluey-Setup-1.0.4.exe",
+  "sha256": "9cc7389597c1912d9f5676c6970ded8c33709a0dbd78d1ef2d011344acb156b2",
+  "size": 137135476,
+  "notes": "1.0.3 에서 화면이 반쯤만 뜨던 것 고침",
+  "sig": "RH7NPfvO3K0vLKt16335RlEIutHUjN/ckeGedblPumBfUt9Ov1cm0TRIGw6OiQzoJlC10A2+5S1FrWm6pZ9YAg=="
 }

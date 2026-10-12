@@ -15,6 +15,8 @@
 }
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
+/* 한국어는 낱말 단위로 줄바꿈 (글자 중간에서 끊지 않는다). 끊을 곳이 없는 긴 주소 · 코드만 칸에 맞춰 끊는다 */
+body { word-break: keep-all; overflow-wrap: break-word; }
 body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--font-ui); font-size: 16px; line-height: 1.7; -webkit-font-smoothing: antialiased; }
 a { color: var(--pen); text-underline-offset: 3px; }
 a:focus-visible, button:focus-visible { outline: 2px solid var(--pen); outline-offset: 3px; border-radius: 4px; }
@@ -101,7 +103,7 @@ main { max-width: 1040px; margin: 0 auto; padding: 0 20px; }
 .doc-page .box p { margin: 0; }
 .doc-page code { font-size: 14px; background: var(--sheet); border: 1px solid var(--rule); border-radius: 5px; padding: 1px 6px; word-break: break-all; }
 .table { overflow-x: auto; }
-.table table { border-collapse: collapse; width: 100%; font-size: 15px; }
+.table table { border-collapse: collapse; width: 100%; min-width: 560px; font-size: 15px; }  /* 좁은 화면에서는 표만 옆으로 밀어 본다 */
 .table th, .table td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--rule); vertical-align: top; color: var(--ink-2); }
 .table th { color: var(--ink); font-weight: 600; white-space: nowrap; }
 .en { margin-top: 56px; padding-top: 28px; border-top: 1px solid var(--rule); }

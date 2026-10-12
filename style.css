@@ -40,6 +40,7 @@ main { max-width: 1040px; margin: 0 auto; padding: 0 20px; }
 .btn { display: inline-flex; align-items: center; gap: 8px; height: 46px; padding: 0 20px; border-radius: 10px; background: var(--pen); color: #FFFFFF; font-weight: 600; text-decoration: none; }
 .btn[aria-disabled="true"] { background: var(--rule); color: var(--ink); cursor: default; }
 .note { font-size: 14px; color: var(--ink-3); }
+.install-tip { margin: 14px 0 0; font-size: 13px; color: var(--ink-3); max-width: 34em; }
 
 /* 앱을 닮은 그림 */
 .shot { position: relative; padding-bottom: 28px; }

@@ -1,0 +1,8 @@
+{
+  "version": "1.0.0",
+  "url": "https://github.com/cluey-app/cluey/releases/download/v1.0.0/Cluey-Setup-1.0.0.exe",
+  "sha256": "843a892c9b0e3986471e6358cb18e483cb9f0db03da5b63d68b404b95f6ac31a",
+  "size": 137106682,
+  "notes": "첫 배포: 메모 · 스티커 · 잠금 · 마인드맵 · 할 일 · 구글 드라이브 동기화 · 자동 업데이트",
+  "sig": "YbXDpvecs6lKu4946Aza7PCMiVcjDFN78x9s17TjQiYK+LNvjy5PLpbqpRSTVlhs8WfluzVy9NA8Z1hIqFuTBQ=="
+}

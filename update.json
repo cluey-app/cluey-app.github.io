@@ -1,8 +1,8 @@
 {
-  "version": "1.0.2",
-  "url": "https://github.com/cluey-app/cluey/releases/download/v1.0.2/Cluey-Setup-1.0.2.exe",
-  "sha256": "3d88ad476cbf587ee012fe10cdda08e3519ace9c74bab48d7e6d4b6e1e0796f8",
-  "size": 137137229,
-  "notes": "화면 깜빡임 해결: 기본은 소프트웨어로 그림 (설정에서 그래픽 가속 쓰기)",
-  "sig": "rAihqnSVFTDb08fFbILayePhnZUn/TeUGCxibG0oTd/KcnqPnWjdvxyt8sCHlxubBYO1JaZ13sOB6DIzUoYqAA=="
+  "version": "1.0.3",
+  "url": "https://github.com/cluey-app/cluey/releases/download/v1.0.3/Cluey-Setup-1.0.3.exe",
+  "sha256": "4e11c36f92ffe8ea8512782f115e573a2b786547f237c990b722827ee76bae84",
+  "size": 137197509,
+  "notes": "메모 탭 · 창 단추를 띠 안으로 · 작성자 칸 · 오른쪽 화면도 고치기 · 메모만 확대·축소 · 고른 폴더에 새 메모",
+  "sig": "84bqM1eqshqtVw/FZ0BdIF6JleJX5XT6MxUHyaAQIvx714X7HxgcPQSbfR0MrpNrRqetDbnFIE2YmE+7Y5S/CA=="
 }

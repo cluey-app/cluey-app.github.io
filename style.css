@@ -40,7 +40,13 @@ main { max-width: 1040px; margin: 0 auto; padding: 0 20px; }
 .btn { display: inline-flex; align-items: center; gap: 8px; height: 46px; padding: 0 20px; border-radius: 10px; background: var(--pen); color: #FFFFFF; font-weight: 600; text-decoration: none; }
 .btn[aria-disabled="true"] { background: var(--rule); color: var(--ink); cursor: default; }
 .note { font-size: 14px; color: var(--ink-2); }
-.install-tip { margin: 14px 0 0; font-size: 13px; color: var(--ink-2); max-width: 34em; }
+.install-help { margin: 18px 0 0; padding: 14px 16px; border: 1px solid var(--rule); border-radius: 10px; background: var(--sheet); font-size: 13px; color: var(--ink-2); max-width: 36em; line-height: 1.6; }
+.install-help .ih-title { margin: 0 0 6px; font-weight: 700; color: var(--ink); font-size: 14px; }
+.install-help dl { margin: 0; display: grid; gap: 4px; }
+.install-help dt { font-weight: 600; color: var(--ink); margin-top: 6px; }
+.install-help dd { margin: 0; }
+.install-help .warn { display: block; margin-top: 4px; color: var(--pen); }
+.install-help .ih-why { margin: 10px 0 0; color: var(--ink-3); font-size: 12.5px; }
 
 /* 앱을 닮은 그림 */
 .shot { position: relative; padding-bottom: 28px; }

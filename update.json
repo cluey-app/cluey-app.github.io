@@ -1,8 +1,8 @@
 {
-  "version": "1.0.1",
-  "url": "https://github.com/cluey-app/cluey/releases/download/v1.0.1/Cluey-Setup-1.0.1.exe",
-  "sha256": "c114f33d99e3f44cd638e865454e6932297894a70a57bd2ce15ac0d6f9d48e66",
-  "size": 137175869,
-  "notes": "업데이트 단추(설정 왼쪽) · 기본 양식 3개 · 정보 칸 접힘 기억 · 폴더 끌어 순서 바꾸기",
-  "sig": "bPM+BWwtHujRcAekZMtqIJe8u8YOsLi4jUABEEyxjApbUXT7w8m2agYyKi1zLNg2PYMhyTCweDRpY8HaC1fwCg=="
+  "version": "1.0.2",
+  "url": "https://github.com/cluey-app/cluey/releases/download/v1.0.2/Cluey-Setup-1.0.2.exe",
+  "sha256": "3d88ad476cbf587ee012fe10cdda08e3519ace9c74bab48d7e6d4b6e1e0796f8",
+  "size": 137137229,
+  "notes": "화면 깜빡임 해결: 기본은 소프트웨어로 그림 (설정에서 그래픽 가속 쓰기)",
+  "sig": "rAihqnSVFTDb08fFbILayePhnZUn/TeUGCxibG0oTd/KcnqPnWjdvxyt8sCHlxubBYO1JaZ13sOB6DIzUoYqAA=="
 }

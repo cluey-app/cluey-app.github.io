@@ -1,8 +1,8 @@
 {
-  "version": "1.0.5",
-  "url": "https://github.com/cluey-app/cluey/releases/download/v1.0.5/Cluey-Setup-1.0.5.exe",
-  "sha256": "8782bd9becc99833325b3631047bf2daf33a1947e7facfafcc7fb521040f0b8e",
-  "size": 137190127,
-  "notes": "메모 보내기 · 친구 · 알림 · 켤 때 테마 깜빡임 · 새 메모 자리 · 목록 폭 · 마인드맵 Tab · 설명서 정돈",
-  "sig": "bWPDnQIpQJIVqZldiRrKjSWdGWWqZdZsC+GWb55CspBmxt6FV4ehSL7x9fhh0mNubBCNe+Xhcg7A3dKPAZPoCw=="
+  "version": "1.0.6",
+  "url": "https://github.com/cluey-app/cluey/releases/download/v1.0.6/Cluey-Setup-1.0.6.exe",
+  "sha256": "e77d85240b66029149f9e82407bc940310a9a86f49b0bb4029997d13ca7442c2",
+  "size": 137162726,
+  "notes": "왼쪽 목록 새 모양 (폴더 색 고르기) · 오래 켜 두면 글자가 잘려 보이던 것 · 메모에서 @ 목록 빼기",
+  "sig": "DYlPj8QkMk9rSXeUQRKvhPlKH75Ar/NPY7FKpZ8UjtePdWhwaIGM6WqVHLW/WOGEQfRYgca401JaTbdCiwVXCQ=="
 }

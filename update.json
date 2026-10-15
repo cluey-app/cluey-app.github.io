@@ -1,8 +1,8 @@
 {
-  "version": "1.1.0",
-  "url": "https://github.com/cluey-app/cluey/releases/download/v1.1.0/Cluey-Setup-1.1.0.exe",
-  "sha256": "161d17327bdd9c6f8aabee9e521c175ab2b385697f71339a0b4be8bb92f9cc6a",
-  "size": 137296611,
-  "notes": "친구 목록 새 모양 (친구에게 보일 내 이름 · 찾기 · 즐겨찾기 · 차단) · 표 다듬기 (칸 경계 끌기 · 행 높이 · 너비와 높이 같게 · 셀 나누기 · 정렬 단추) · 오른쪽 버튼 메뉴가 창 밖으로 · 메모 메뉴에서 스티커로 보기 · 폴더 모아보기 정리 · 모니터 여러 대에서 창이 화면 밖에 놓이던 것",
-  "sig": "lLLtScsyuNvbyCq4+7i0EJfVSMxANpMso7HPFXjOyiTu2q8ynHgk+TnFyt9JDY1n98jhfLhZ50DuTIxovGACDA=="
+  "version": "1.1.1",
+  "url": "https://github.com/cluey-app/cluey/releases/download/v1.1.1/Cluey-Setup-1.1.1.exe",
+  "sha256": "b03fc9caf15389fd33a459218978564d258a218272e590c3c583cfd3bd55b34b",
+  "size": 137300475,
+  "notes": "설정 › 친구에 '친구 추가' 단추 · 친구 이름을 내가 붙인 별칭으로 보여 주기 · 새로 맺은 친구가 바로 보이게 · 자잘한 개선",
+  "sig": "0nJ161A8YnnmVYNTOYAKpVfFwEOje+PuzAhhRk7DeQzEiDqziJyiisV/yyMUaNEndYlTowhZ8zWv8T5qAK4fBw=="
 }

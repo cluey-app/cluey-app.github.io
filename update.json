@@ -1,8 +1,8 @@
 {
-  "version": "1.0.7",
-  "url": "https://github.com/cluey-app/cluey/releases/download/v1.0.7/Cluey-Setup-1.0.7.exe",
-  "sha256": "8c71bdf37c3a451e1aef371f36b0029eef8e30851a208b5600d2c63bba0a0691",
-  "size": 137166669,
-  "notes": "최대화했다 되돌릴 때 위 흰 줄 · 아래 잘림을 고쳤습니다. 업데이트 중에 켜면 오류 창 대신 안내가 뜹니다.",
-  "sig": "QJIr/l4Je9CjZBJ0hEjulman9guw5XXpwljesLKtGU6g1Kaeb4LJzqu0cnA0oDakksGUe3aMKLvoiLednHrHDA=="
+  "version": "1.1.0",
+  "url": "https://github.com/cluey-app/cluey/releases/download/v1.1.0/Cluey-Setup-1.1.0.exe",
+  "sha256": "161d17327bdd9c6f8aabee9e521c175ab2b385697f71339a0b4be8bb92f9cc6a",
+  "size": 137296611,
+  "notes": "친구 목록 새 모양 (친구에게 보일 내 이름 · 찾기 · 즐겨찾기 · 차단) · 표 다듬기 (칸 경계 끌기 · 행 높이 · 너비와 높이 같게 · 셀 나누기 · 정렬 단추) · 오른쪽 버튼 메뉴가 창 밖으로 · 메모 메뉴에서 스티커로 보기 · 폴더 모아보기 정리 · 모니터 여러 대에서 창이 화면 밖에 놓이던 것",
+  "sig": "lLLtScsyuNvbyCq4+7i0EJfVSMxANpMso7HPFXjOyiTu2q8ynHgk+TnFyt9JDY1n98jhfLhZ50DuTIxovGACDA=="
 }

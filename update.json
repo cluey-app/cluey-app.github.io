@@ -1,8 +1,8 @@
 {
-  "version": "1.1.3",
-  "url": "https://github.com/cluey-app/cluey/releases/download/v1.1.3/Cluey-Setup-1.1.3.exe",
-  "sha256": "4022f11149d0559177a4c7949b9ea585d360a86086ccdaab81da7f3aec702639",
-  "size": 137455778,
-  "notes": "탭이 많아도 제목 줄을 끌 자리 · 저장 표시 뒤 여백 줄임 · 바로가기 아이콘이 예전 로고로 보이던 것 · 자잘한 개선",
-  "sig": "OzJjk9V+/g9HL1nDQBxd/Wx2iuw4sjl2BYdBFUxaqjeKE+Qat3F7fYkrgW70Yd1B0iTpIi6OnzRCc7+Nh3OjAA=="
+  "version": "1.1.4",
+  "url": "https://github.com/cluey-app/cluey/releases/download/v1.1.4/Cluey-Setup-1.1.4.exe",
+  "sha256": "7faafb07085bfdd1a61a262d2f168391137b8f7a20479d9c571120ab1a88c2ba",
+  "size": 137438863,
+  "notes": "켤 때 빈 메모 정리 · 메모 안에 2단 · 3단 나누기 · 탭 메뉴 '모든 탭 닫기' · 윈도 시작할 때 자동 실행 · 자잘한 개선",
+  "sig": "OwIbKCgHwcktLaV+jDqzYhzKHXyo9eTvqaADeQ6V1gzVtMdRvDo6Rs8Iz9NATHrdb+LAYQ7j9wERzRTnqYCYCA=="
 }

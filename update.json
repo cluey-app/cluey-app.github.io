@@ -1,8 +1,8 @@
 {
-  "version": "1.1.1",
-  "url": "https://github.com/cluey-app/cluey/releases/download/v1.1.1/Cluey-Setup-1.1.1.exe",
-  "sha256": "b03fc9caf15389fd33a459218978564d258a218272e590c3c583cfd3bd55b34b",
-  "size": 137300475,
-  "notes": "설정 › 친구에 '친구 추가' 단추 · 친구 이름을 내가 붙인 별칭으로 보여 주기 · 새로 맺은 친구가 바로 보이게 · 자잘한 개선",
-  "sig": "0nJ161A8YnnmVYNTOYAKpVfFwEOje+PuzAhhRk7DeQzEiDqziJyiisV/yyMUaNEndYlTowhZ8zWv8T5qAK4fBw=="
+  "version": "1.1.2",
+  "url": "https://github.com/cluey-app/cluey/releases/download/v1.1.2/Cluey-Setup-1.1.2.exe",
+  "sha256": "772bc6b20e3274efa2fcbdf17e77a10e98cde9292ff4a87aaac1113a7c97692a",
+  "size": 137390876,
+  "notes": "새 로고 · 메모 탭에 + 단추와 오른쪽 클릭 메뉴 · 새 메모 이름을 '새 메모 1' 처럼 · 켤 때 제목 글꼴이 잠깐 바뀌던 것 · 설정 단추 톱니바퀴 · 자잘한 개선",
+  "sig": "Fxh4ApGWiro3CE/JJH/Z3Fmng2sP29AFRoDIMfY/5uEE/J1II3lJYaO7wn/4W+X2n3OT9DQ1F8etEKS02pxjDw=="
 }

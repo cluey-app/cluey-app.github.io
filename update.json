@@ -1,8 +1,8 @@
 {
-  "version": "1.1.2",
-  "url": "https://github.com/cluey-app/cluey/releases/download/v1.1.2/Cluey-Setup-1.1.2.exe",
-  "sha256": "772bc6b20e3274efa2fcbdf17e77a10e98cde9292ff4a87aaac1113a7c97692a",
-  "size": 137390876,
-  "notes": "새 로고 · 메모 탭에 + 단추와 오른쪽 클릭 메뉴 · 새 메모 이름을 '새 메모 1' 처럼 · 켤 때 제목 글꼴이 잠깐 바뀌던 것 · 설정 단추 톱니바퀴 · 자잘한 개선",
-  "sig": "Fxh4ApGWiro3CE/JJH/Z3Fmng2sP29AFRoDIMfY/5uEE/J1II3lJYaO7wn/4W+X2n3OT9DQ1F8etEKS02pxjDw=="
+  "version": "1.1.3",
+  "url": "https://github.com/cluey-app/cluey/releases/download/v1.1.3/Cluey-Setup-1.1.3.exe",
+  "sha256": "4022f11149d0559177a4c7949b9ea585d360a86086ccdaab81da7f3aec702639",
+  "size": 137455778,
+  "notes": "탭이 많아도 제목 줄을 끌 자리 · 저장 표시 뒤 여백 줄임 · 바로가기 아이콘이 예전 로고로 보이던 것 · 자잘한 개선",
+  "sig": "OzJjk9V+/g9HL1nDQBxd/Wx2iuw4sjl2BYdBFUxaqjeKE+Qat3F7fYkrgW70Yd1B0iTpIi6OnzRCc7+Nh3OjAA=="
 }

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>메모 잠금 | Cluey</title>
+<meta name="description" content="메모마다 비밀번호를 걸어 암호화하는 메모 잠금. 거는 법, 푸는 법, 비밀번호를 잊었을 때.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Cluey">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:title" content="메모 잠금 | Cluey">
+<meta property="og:description" content="메모마다 비밀번호를 걸어 암호화하는 메모 잠금. 거는 법, 푸는 법, 비밀번호를 잊었을 때.">
+<meta property="og:url" content="https://cluey-app.github.io/features/lock.html">
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="https://cluey-app.github.io/features/lock.html">
+<link rel="icon" href="../logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&family=Gaegu:wght@700&display=swap">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<a class="skip" href="#main">본문으로 건너뛰기</a>
+<header class="site-head"><div class="wrap">
+  <a class="brand" href="../index.html"><img src="../logo.svg" alt="" width="30" height="30"><span>Cluey</span></a>
+  <nav aria-label="사이트"><a href="../features/" aria-current="page">기능</a><a href="../tips.html">사용 팁</a><a href="../faq.html">자주 묻는 질문</a><a href="../compare.html">비교</a><a href="../index.html#news">새 소식</a></nav>
+  <a class="nav-dl" href="../index.html#download">내려받기</a>
+</div></header>
+<main id="main">
+<div class="page-head"><div class="wrap narrow">
+  <p class="crumb"><a href="../features/">기능</a> / 메모 잠금</p>
+  <h1>메모 잠금</h1>
+  <p>메모마다 비밀번호를 걸어 암호화합니다. 운영자도 열 수 없습니다.</p>
+</div></div>
+<div class="wrap narrow article">
+
+<h2>메모마다 비밀번호를 겁니다</h2>
+<ol class="steps">
+<li>잠글 메모의 위쪽 <b>⋯</b> 메뉴나 목록의 오른쪽 클릭 메뉴에서 <b>잠그기</b> 를 고릅니다.</li>
+<li>비밀번호(4자 이상)를 두 번 넣습니다. 힌트는 적어도 되고 안 적어도 됩니다.</li>
+<li>창에 적힌 안내를 읽고 잠급니다. 목록에 자물쇠 표시가 생깁니다.</li>
+</ol>
+<figure class="shotfig" data-shot="lock-dialog"><div class="ph" role="img" aria-label="비밀번호와 힌트를 넣는 잠금 창 (준비 중)"><div><strong>화면 사진 자리</strong>lock-dialog<br>비밀번호와 힌트를 넣는 잠금 창</div></div><figcaption>비밀번호와 힌트를 넣는 잠금 창</figcaption></figure>
+<h2>진짜 암호화입니다</h2>
+<p>본문, 장소, 프로젝트, 참석자는 비밀번호로 암호화되어 저장되고 원래 칸은 비워집니다. 제목은 목록과 검색에 쓰려고 그대로 보입니다. 로그인해서 <a href="../features/sync.html">동기화</a>를 쓰는 경우에도 잠긴 메모는 암호화된 채로 서버에 올라가서, Cluey 운영자도 읽을 수 없습니다.</p>
+<h2>열고 닫기</h2>
+<ul>
+<li>잠긴 메모를 열면 본문 자리에 비밀번호 입력 칸과 <b>힌트 보기</b> 가 나옵니다. 맞으면 열려서 고칠 수 있고, 저장할 때 다시 암호화됩니다.</li>
+<li>다른 메모로 옮기거나 창을 닫으면 다시 잠깁니다.</li>
+<li>열려 있을 때 <b>⋯</b> 메뉴에서 <b>잠금 풀기</b>(암호화 없앰)와 <b>비밀번호 바꾸기</b> 를 할 수 있습니다.</li>
+</ul>
+<div class="callout"><p><b>비밀번호를 잊으면 그 메모는 아무도 열 수 없습니다.</b> 찾아 드릴 방법이 없고, 힌트만 볼 수 있습니다. 중요한 메모는 비밀번호를 따로 적어 두세요.</p></div>
+<h2>잠긴 동안 달라지는 것</h2>
+<ul>
+<li>본문 <a href="../features/search.html">검색</a>, 할 일 모아보기, 폴더 모아보기에서 빠집니다.</li>
+<li><a href="../features/sticky.html">스티커</a>로 띄우거나 복제할 수 없고, <a href="../features/share.html">공유 폴더</a>에도 넣을 수 없습니다("잠금을 풀고 넣어 주세요").</li>
+<li><a href="../features/mcp.html">AI 도구 연결</a>과 <a href="../features/apikey.html">API 키</a>에는 어떤 경우에도 보이지 않습니다.</li>
+<li>복사, 출력, 내보내기는 열려 있을 때만 됩니다.</li>
+<li>백업에는 암호화된 채로 들어갑니다.</li>
+</ul>
+
+<aside class="related" aria-label="함께 보면 좋은 글"><h2>함께 보면 좋은 글</h2><ul><li><a href="../features/sync.html">PC 여러 대 동기화</a></li><li><a href="../features/mcp.html">AI 도구 연결 (MCP)</a></li><li><a href="../features/share.html">공유 폴더</a></li><li><a href="../tips.html">사용 팁</a></li><li><a href="../faq.html">자주 묻는 질문</a></li></ul></aside>
+</div>
+</main>
+<section class="closing" aria-label="마무리"><div class="wrap">
+  <p>생각이 막힐 땐, 클루이를 켜세요.</p>
+  <a class="btn" href="../index.html#download">Windows 용 내려받기</a>
+</div></section>
+<footer class="site-foot"><div class="wrap">
+  <span>© 2026 Cluey</span>
+  <span class="links"><a href="../terms.html">이용약관</a><a href="../privacy.html">개인정보처리방침</a><a href="mailto:kyg6135@naver.com">문의</a></span>
+</div></footer>
+</body>
+</html>

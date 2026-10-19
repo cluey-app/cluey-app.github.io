@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>개인정보처리방침 — Cluey</title>
-<meta name="description" content="Cluey 개인정보처리방침: 메모는 내 PC 와 내 구글 드라이브의 Cluey 전용 칸에 저장됩니다. 메모 보내기를 쓸 때만 꼭 필요한 정보와 받는 사람만 열 수 있게 잠근 메모를 보내기 서버에 잠시 맡깁니다.">
+<meta name="description" content="Cluey 개인정보처리방침: 메모는 내 PC 에 저장되고, 로그인하면 Cluey 서버에도 보관됩니다. 잠근 메모는 서버에서도 잠긴 채로 있어 운영자도 볼 수 없습니다.">
 <link rel="icon" href="logo.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,56 +24,104 @@
 <main>
 <article class="doc-page">
   <h1>개인정보처리방침</h1>
-  <p class="meta">시행일 2026년 10월 16일 (친구와 함께하는 기능의 1:1 기록 추가)</p>
+  <p class="meta">시행일 2026년 10월 19일 (구글 계정 · 서버 동기화 · 공유 폴더 · API 키 · 사용 통계)</p>
 
-  <div class="box"><p><strong>요약</strong> — 메모는 여러분의 PC 와, 동기화를 켠 경우 <strong>여러분 본인의 구글 드라이브 안 Cluey 전용 숨은 칸</strong>에 저장됩니다. <strong>메모 보내기</strong>를 쓸 때만, 보내기에 꼭 필요한 정보(구글 이메일 주소 · 공개 열쇠 · 친구 목록)와 <strong>받는 사람만 열 수 있게 잠근 메모</strong>를 Cluey 보내기 서버에 잠시 맡깁니다. Cluey 를 만든 사람은 여러분의 메모 내용을 볼 수 없습니다.</p></div>
+  <div class="box"><p><strong>요약</strong> - 메모는 여러분의 PC 에 저장됩니다. 로그인하면 같은 메모가 Cluey 서버(Cloudflare)에도 보관되어 여러 PC 에서 이어 쓰고 친구와 주고받을 수 있습니다. 서버에 올라간 메모는 그 기능을 하려고 서비스가 읽을 수 있는 상태이며, 운영자는 문의, 보안 사고나 신고, 법적 요청이 있을 때만 열어 볼 수 있고 열 때마다 기록을 남깁니다. 비밀번호로 잠근 메모는 서버에도 잠긴 채로 올라가 운영자도 볼 수 없습니다. 로그인하지 않으면 서버에 아무것도 보내지 않습니다.</p></div>
+
 
   <h2>1. Cluey 가 다루는 정보</h2>
   <div class="table"><table>
     <thead><tr><th>정보</th><th>어디에</th><th>왜</th></tr></thead>
     <tbody>
-      <tr><th>메모·폴더·양식·자주 쓰는 장소·설정</th><td>내 PC (<code>문서\Cluey</code> 폴더)</td><td>프로그램이 동작하려면 필요합니다</td></tr>
-      <tr><th>위와 같은 메모 자료 (동기화를 켠 경우)</th><td>내 구글 드라이브의 앱 전용 숨은 칸 (appDataFolder)</td><td>같은 구글 계정으로 로그인한 내 PC 들끼리 메모를 맞추려고</td></tr>
-      <tr><th>구글 계정 이메일 주소</th><td>내 PC (암호화)</td><td>설정 화면에 어느 계정으로 로그인했는지 보여 주려고</td></tr>
-      <tr><th>구글 로그인 정보 (토큰)</th><td>내 PC (윈도우 DPAPI 로 암호화)</td><td>동기화할 때마다 다시 로그인하지 않으려고</td></tr>
-      <tr><th>구글 계정 이메일 주소 (메모 보내기를 쓴 경우)</th><td>Cluey 보내기 서버</td><td>보내는 사람과 받는 사람을 알아보려고</td></tr>
-      <tr><th>보내기 열쇠</th><td>공개 열쇠: 보내기 서버 · 푸는 열쇠: 내 PC(암호화)와 내 구글 드라이브 숨은 칸</td><td>받는 사람만 메모를 열 수 있게 잠그려고</td></tr>
-      <tr><th>친구 목록 · 친구 요청 (이메일 주소, 내가 붙인 이름)</th><td>Cluey 보내기 서버</td><td>친구 요청 · 수락과 보내기에 쓰려고. 내가 붙인 이름은 나만 보이고, 내 다른 PC 에서도 같이 보입니다</td></tr>
-      <tr><th>친구에게 보일 내 이름 · 즐겨찾기 표시</th><td>Cluey 보내기 서버</td><td>친구 목록에서 나를 알아보게 하려고. 내 이름은 서로 친구인 사람과, 친구와 함께하는 기능에서 같은 자리에 들어온 사람에게 보입니다. 즐겨찾기 표시는 나만 보입니다</td></tr>
-      <tr><th>차단 목록 (차단한 사람의 이메일 주소)</th><td>Cluey 보내기 서버</td><td>차단한 사람의 친구 요청 · 메모 · 초대를 막으려고. 차단 사실은 상대에게 알리지 않습니다</td></tr>
-      <tr><th>친구와 함께하는 기능의 1:1 기록 (상대의 이메일 주소, 종류, 승 · 패 · 무 횟수)</th><td>Cluey 보내기 서버</td><td>친구와 1:1로 함께한 결과를 보여 주려고. 종류별 내 전체 기록은 같은 자리에 들어온 사람에게, 나와 상대 사이의 기록은 나에게만 보입니다. 친구를 끊거나 차단하면 둘 사이 기록을, 탈퇴하면 내 전체 기록과 내가 낀 기록을 지웁니다</td></tr>
-      <tr><th>접속 중 여부 · 초대 (실시간 연결)</th><td>Cluey 보내기 서버 (저장하지 않음)</td><td>친구와 함께하는 기능에서 친구가 지금 접속해 있는지 보여 주고 초대를 바로 전하려고. Cluey 가 켜져 있고 로그인한 동안만 연결하며, 연결이 끊기면 사라집니다. 함께한 진행 내용은 남기지 않고 끝나면 지웁니다(1:1 결과의 승 · 패 · 무 횟수만 위 기록에 남습니다)</td></tr>
-      <tr><th>보낸 메모</th><td>Cluey 보내기 서버 (받는 사람의 열쇠로 잠근 채)</td><td>받는 사람이 받을 때까지 맡아 두려고. 받거나 거절하면 바로, 아니면 30일 뒤 지웁니다</td></tr>
-      <tr><th>이 PC 이름</th><td>내 PC, 동기화한 메모 자료</td><td>두 PC 에서 같은 메모를 고쳤을 때 "충돌 사본" 에 어느 PC 것인지 적으려고</td></tr>
+      <tr><th>메모, 폴더, 양식, 자주 쓰는 장소, 설정</th><td>내 PC (<code>문서\Cluey</code> 폴더)</td><td>프로그램이 동작하려면 필요합니다</td></tr>
+      <tr><th>위와 같은 메모 자료와 메모의 그림 (로그인한 경우, 잠근 메모는 암호화된 채로)</th><td>Cluey 서버 (Cloudflare R2, D1)</td><td>같은 계정의 여러 PC 를 맞추고, 보내기와 공유 기능을 하려고</td></tr>
+      <tr><th>구글 계정 이메일 주소</th><td>Cluey 서버, 내 PC (암호화)</td><td>계정을 구분하고 설정 화면에 어느 계정인지 보여 주려고</td></tr>
+      <tr><th>구글 계정 이름 (실명)</th><td>Cluey 서버</td><td>계정 정보로 보관합니다. 설정에서 고칠 수 있습니다</td></tr>
+      <tr><th>닉네임</th><td>Cluey 서버</td><td>친구에게 보이는 내 이름. 서로 친구인 사람과, 친구와 함께하는 기능에서 같은 자리에 들어온 사람에게 보입니다</td></tr>
+      <tr><th>동의한 때와 약관 판</th><td>Cluey 서버</td><td>가입 동의를 확인하려고</td></tr>
+      <tr><th>로그인 정보: PC 이름, 처음 로그인한 때, 마지막 사용 때</th><td>Cluey 서버</td><td>어느 PC 가 로그인되어 있는지 보여 주고, 90일 안 쓴 PC 를 끊고, 다른 PC 로그아웃을 하려고. 로그인 확인용 값은 되돌릴 수 없는 모양으로만 저장합니다</td></tr>
+      <tr><th>로그인 정보 (세션 토큰, 구글 토큰)</th><td>내 PC (윈도우 DPAPI 로 암호화)</td><td>켤 때마다 다시 로그인하지 않으려고</td></tr>
+      <tr><th>사용 통계 (아래 3번)</th><td>Cluey 서버</td><td>서비스를 고치고 개선하려고</td></tr>
+      <tr><th>보내기 열쇠</th><td>공개 열쇠: Cluey 서버, 푸는 열쇠: 내 PC (암호화)</td><td>받는 사람만 메모를 열 수 있게 잠그려고</td></tr>
+      <tr><th>친구 목록, 친구 요청 (이메일 주소, 내가 붙인 이름)</th><td>Cluey 서버</td><td>친구 요청, 수락, 보내기에 쓰려고. 내가 붙인 이름은 나만 보이고 내 다른 PC 에서도 같이 보입니다</td></tr>
+      <tr><th>즐겨찾기 표시</th><td>Cluey 서버</td><td>내 친구 목록에 표시하려고. 나만 보입니다</td></tr>
+      <tr><th>차단 목록 (차단한 사람의 이메일 주소)</th><td>Cluey 서버</td><td>차단한 사람의 친구 요청, 메모, 초대를 막으려고. 차단 사실은 상대에게 알리지 않습니다</td></tr>
+      <tr><th>친구와 함께하는 기능의 1:1 기록 (상대의 이메일 주소, 종류, 승 패 무 횟수)</th><td>Cluey 서버</td><td>친구와 1:1 로 함께한 결과를 보여 주려고. 종류별 내 전체 기록은 같은 자리에 들어온 사람에게, 나와 상대 사이의 기록은 나에게만 보입니다. 친구를 끊거나 차단하면 둘 사이 기록을, 탈퇴하면 내 전체 기록과 내가 낀 기록을 지웁니다</td></tr>
+      <tr><th>접속 중 여부, 초대 (실시간 연결)</th><td>Cluey 서버 (저장하지 않음)</td><td>친구가 지금 접속해 있는지 보여 주고 초대를 바로 전하려고. Cluey 가 켜져 있고 로그인한 동안만 연결하며, 끊기면 사라집니다. 함께한 진행 내용은 남기지 않고 끝나면 지웁니다(1:1 결과의 승 패 무 횟수만 위 기록에 남습니다)</td></tr>
+      <tr><th>API 키 정보 (키 이름, 키의 되돌릴 수 없는 값과 앞 몇 글자, 할 수 있는 일, 볼 수 있는 폴더, 기한, 마지막으로 쓴 때). 키 자체는 만들 때 한 번만 보여 주고 저장하지 않습니다</th><td>Cluey 서버</td><td>사용자가 만든 키를 확인하고 목록에 보여 주려고</td></tr>
+      <tr><th>API 키 사용 기록 (언제, 어떤 일(폴더 목록, 찾기, 읽기, 새 메모), 찾은 글자나 메모 번호). 메모 본문은 적지 않습니다</th><td>Cluey 서버 (사람마다 최근 1000건)</td><td>내 키가 어떻게 쓰였는지 확인하고 잘못 쓰인 것을 알아채려고</td></tr>
+      <tr><th>공유 폴더 정보 (공유 폴더 이름, 폴더를 함께 쓰는 사람, 사람마다 권한, 초대와 받기, 나간 기록)</th><td>Cluey 서버</td><td>폴더를 함께 쓰는 사람을 구분하고 권한대로 막으려고</td></tr>
+      <tr><th>공유 폴더의 메모와 폴더 (공유 폴더에 둔 메모, 그림, 마지막으로 고친 사람의 닉네임, 지운 메모 30일 보관)</th><td>Cluey 서버 (공유 폴더 주인의 용량으로 계산)</td><td>함께 쓰는 사람들이 같은 메모를 보고 고치려고. 잠근 메모는 공유 폴더에 둘 수 없습니다</td></tr>
+      <tr><th>보낸 메모</th><td>Cluey 서버 (받는 사람의 열쇠로 잠근 채)</td><td>받는 사람이 받을 때까지 맡아 두려고. 받거나 거절하면 바로, 아니면 30일 뒤 지웁니다</td></tr>
+      <tr><th>이 PC 이름</th><td>내 PC, 서버에 맞춘 메모 자료</td><td>두 PC 에서 같은 메모를 고쳤을 때 "충돌 사본" 에 어느 PC 것인지 적으려고</td></tr>
     </tbody>
   </table></div>
-  <p>Cluey 는 이 밖의 정보(사용 기록, 위치, 연락처, 기기 식별자 등)를 모으지 않고, 광고나 분석 도구를 쓰지 않습니다.</p>
+  <p>Cluey 는 이 밖의 정보(위치, 연락처, 기기 식별자 등)를 모으지 않고, 광고나 분석 도구를 쓰지 않습니다.</p>
 
   <h2>2. 구글 계정 정보를 쓰는 방법</h2>
-  <p>동기화는 고를 수 있는 기능이며, 켜려면 구글 계정으로 로그인합니다. Cluey 가 요청하는 권한은 다음뿐입니다.</p>
+  <p>로그인은 구글 계정으로만 하며, Cluey 가 요청하는 권한은 다음뿐입니다.</p>
   <ul>
-    <li><code>https://www.googleapis.com/auth/drive.appdata</code> — 구글 드라이브 안 <strong>Cluey 전용 숨은 칸</strong>의 파일만 만들고, 읽고, 고치고, 지웁니다. 드라이브의 다른 파일과 폴더는 볼 수 없습니다.</li>
-    <li><code>openid</code>, <code>email</code> — 로그인한 계정의 이메일 주소를 설정 화면에 보여 주고, 메모 보내기에서 보내는 사람 · 받는 사람을 알아보는 데 씁니다.</li>
+    <li><code>openid</code>, <code>email</code>, <code>profile</code>: 로그인한 계정의 이메일 주소와 이름을 확인해서 계정을 만들고, 설정 화면에 보여 주고, 메모 보내기와 친구 기능에서 사람을 알아보는 데 씁니다. 구글의 다른 정보는 받지 않습니다.</li>
   </ul>
-  <p>구글에서 받은 정보는 여러분의 PC 와 여러분의 구글 드라이브 사이에서만 오갑니다. 단, 메모 보내기를 쓰면 로그인한 계정의 <strong>이메일 주소</strong>가 Cluey 보내기 서버로 가서, 보내는 사람과 받는 사람을 알아보는 데만 쓰입니다. 그 밖의 용도로 쓰거나 팔거나 광고에 쓰거나 사람이 읽지 않습니다.</p>
+  <p>구글 드라이브 권한은 더 요청하지 않습니다. 예전 버전에서 드라이브로 동기화하며 이미 드라이브 권한을 허락한 분은, 서버에 처음 로그인할 때 그 권한으로 Cluey 전용 숨은 칸의 메모 자료를 한 번 읽어 서버로 옮깁니다. 이때 드라이브의 파일은 읽기만 하고 지우거나 고치지 않으며, 드라이브에 있는 사본은 그대로 남습니다. 옮긴 뒤로는 드라이브를 쓰지 않으며, 남은 사본은 구글 드라이브 웹의 설정, 앱 관리, Cluey, 숨겨진 앱 데이터 삭제로 직접 지울 수 있습니다.</p>
+  <p>구글에서 받은 정보를 그 밖의 용도로 쓰거나 팔거나 광고에 쓰지 않습니다. 운영자가 이름이나 이메일을 보는 것은 아래 3번의 열람 원칙에 따를 때와 회원 관리에 필요할 때뿐입니다.</p>
   <p>Cluey 가 Google API 에서 받은 정보를 사용하고 다른 곳으로 옮기는 것은 <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API 서비스 사용자 데이터 정책</a>의 제한적 사용(Limited Use) 요건을 포함해 그 정책을 따릅니다.</p>
 
-  <h2>3. 잠근 메모</h2>
-  <p>비밀번호로 잠근 메모는 내 PC 에서 암호화(AES-GCM)되어 저장되고, 동기화할 때도 암호화된 채로 구글 드라이브에 올라갑니다. 비밀번호는 어디에도 저장하지 않으므로, 잊으면 개발자도 메모를 열 수 없습니다.</p>
+  <h2>3. 운영자의 접근 원칙, 잠근 메모, 사용 통계</h2>
+  <p><strong>운영자의 접근 원칙</strong></p>
+  <p>서버에 보관된 메모(잠그지 않은 것)는 동기화와 공유를 하려고 서비스가 읽을 수 있는 상태입니다. 운영자가 이 메모를 열어 보는 것은 (1) 사용자의 문의로 도움이 필요할 때, (2) 보안 사고나 신고를 처리할 때, (3) 법에 따른 요청이 있을 때뿐이며, 이유를 적고 열어서 누가 언제 누구의 메모를 열었는지 모두 기록합니다.</p>
+  <p><strong>잠근 메모</strong></p>
+  <p>비밀번호로 잠근 메모는 내 PC 에서 암호화(AES-GCM)되어 저장되고, 서버에도 암호화된 채로 올라갑니다. 비밀번호는 어디에도 저장하지 않으므로 운영자를 포함해 누구도 잠근 메모를 읽을 수 없고, 비밀번호를 잊으면 찾아 드릴 수 없습니다(미리 적어 둔 힌트만 보여 드릴 수 있습니다).</p>
+  <p><strong>사용 통계</strong></p>
+  <p>로그인한 사용자의 앱은 하루에 한 번 숫자만 서버에 보냅니다.</p>
+  <ul>
+    <li>기능별 사용 횟수</li>
+    <li>메모, 글자, 폴더, 잠근 메모의 개수</li>
+    <li>앱 버전</li>
+    <li>앱 오류의 종류, 위치, 횟수</li>
+  </ul>
+  <p>메모의 제목과 내용, 폴더 이름 같은 내용은 보내지 않습니다. 서비스를 고치고 개선하는 데만 씁니다. 로그인하지 않으면 보내지 않습니다. 이 통계는 가입할 때 동의를 받습니다.</p>
 
   <h2>3-1. 메모 보내기</h2>
-  <p>메모 보내기는 Cluey 를 쓰는 사람끼리 메모를 전달하는 고를 수 있는 기능입니다. 사람마다 열쇠 한 쌍(X25519)을 만들어, 공개 열쇠만 보내기 서버에 올립니다. 메모를 보낼 때는 <strong>받는 사람의 공개 열쇠로 내 PC 에서 잠근 뒤</strong>(AES-GCM) 서버에 맡기므로, 서버와 Cluey 를 만든 사람은 메모의 제목과 내용을 볼 수 없습니다. 푸는 열쇠는 내 PC 와 내 구글 드라이브의 숨은 칸에만 있습니다.</p>
+  <p>메모 보내기는 Cluey 를 쓰는 사람끼리 메모를 전달하는 고를 수 있는 기능입니다. 사람마다 열쇠 한 쌍(X25519)을 만들어, 공개 열쇠만 서버에 올립니다. 메모를 보낼 때는 받는 사람의 공개 열쇠로 내 PC 에서 잠근 뒤(AES-GCM) 서버에 맡기므로, 서버와 운영자는 보내는 중인 메모의 제목과 내용을 볼 수 없습니다. 푸는 열쇠는 내 PC 에만 있습니다(암호화 보관).</p>
+
+  <h2>3-2. API 키</h2>
+  <p>API 키는 사용자가 직접 만들어 다른 프로그램(AI 도구, 업무 프로그램 등)에 주는 열쇠입니다. 만들지 않으면 아무 일도 일어나지 않습니다.</p>
+  <ul>
+    <li>키를 가진 프로그램은 그 사용자가 서버에 동기화한 메모를 읽을 수 있습니다. 키를 만들 때 정한 폴더 범위 안의 메모만 볼 수 있고, 'AI에게 숨기기'로 숨긴 폴더와 잠근 메모는 볼 수 없습니다. 읽기와 새 메모 쓰기만 되고, 기존 메모를 고치거나 지울 수는 없습니다.</li>
+    <li>키는 설정의 API 키에서 언제든 끊을 수 있습니다. 끊으면 바로 쓸 수 없게 됩니다. 기한을 정해 두면 그날 저절로 못 쓰게 됩니다.</li>
+    <li>키로 한 일(언제, 어떤 일, 찾은 글자나 메모 번호)은 기록에 남습니다. 메모 본문은 적지 않습니다.</li>
+    <li>키는 만들 때 한 번만 보여 드리고, 서버에는 되돌릴 수 없는 값만 보관합니다. 키가 다른 사람에게 알려지면 그 사람도 같은 범위를 읽을 수 있으니 끊고 새로 만들어 주세요.</li>
+    <li>키를 가진 프로그램이 읽어 간 내용은 그 프로그램을 만든 쪽이 다루는 것이라 Cluey 가 지울 수 없습니다. 믿을 수 있는 프로그램에만 주세요.</li>
+  </ul>
+
+  <h2>3-3. 공유 폴더</h2>
+  <p>공유 폴더는 서로 친구인 사람과 폴더 하나를 함께 쓰는 기능입니다. 사용자가 폴더를 공유하겠다고 하고 상대가 받아야 시작됩니다.</p>
+  <ul>
+    <li>공유 폴더를 받은 사람은 그 폴더와 아래 폴더의 메모를 볼 수 있고, 고치기 권한이면 메모를 만들고 고치고 지울 수도 있습니다. 보기만 권한이면 읽기만 됩니다. 사람을 넣고 빼고 권한을 바꾸는 것은 폴더 주인만 합니다.</li>
+    <li>공유 폴더의 메모에는 마지막으로 고친 사람의 닉네임이 보입니다. 폴더를 받은 사람에게는 주인의 닉네임이 보이고, 주인에게는 함께 쓰는 사람의 닉네임이 보입니다. 이메일 주소는 주인에게, 그 사람과 서로 친구일 때만 보입니다.</li>
+    <li>잠근 메모는 공유 폴더에 둘 수 없습니다.</li>
+    <li>공유 폴더의 메모도 API 키 3-2번의 대상이 될 수 있습니다. 폴더를 함께 쓰는 각 사람이 자기 키로 읽으며, 각자 'AI에게 숨기기'를 따로 정할 수 있습니다.</li>
+    <li>서버의 운영자 열람 원칙(3번)은 공유 폴더에도 그대로 적용됩니다.</li>
+  </ul>
 
   <h2>4. 보관 기간과 지우는 방법</h2>
   <ul>
-    <li><strong>내 PC</strong>: 메모는 지울 때까지 남습니다. 프로그램을 지운 뒤 <code>문서\Cluey</code> 폴더를 지우면 모두 사라집니다.</li>
-    <li><strong>로그인 정보</strong>: Cluey 의 설정 → 동기화 → <strong>로그아웃</strong> 을 누르면 PC 에서 지우고 구글에도 권한을 돌려줍니다. 구글 계정의 <a href="https://myaccount.google.com/permissions">서드 파티 앱 및 서비스</a>에서 Cluey 를 지워도 됩니다.</li>
-    <li><strong>보내기 서버의 정보</strong>: 보낸 메모는 받거나 거절하면 바로, 아니면 30일 뒤 지웁니다. 실시간 연결의 접속 중 여부 · 초대는 저장하지 않고, 친구와 함께한 자리의 진행 상태는 끝나면 지웁니다. 메모 ⋯ → 보내기 창의 <strong>내 보내기 정보 지우기</strong> 를 누르면 서버의 내 이메일 · 공개 열쇠 · 내 이름 · 친구 목록 · 친구 요청 · 내 차단 목록 · 받기 전 메모 · 1:1 기록을 모두 지웁니다. 다만 다른 사람이 나를 차단해 둔 경우, 그 사람의 차단 목록에 있는 내 이메일 주소는 그 사람의 정보라 함께 지워지지 않습니다. 아래 문의 메일로 요청해도 됩니다.</li>
-    <li><strong>구글 드라이브의 메모 자료</strong>: 구글 드라이브 웹 → 설정 → <strong>앱 관리</strong> → Cluey → <strong>숨겨진 앱 데이터 삭제</strong> 로 모두 지울 수 있습니다.</li>
+    <li>내 PC: 메모는 지울 때까지 남습니다. 프로그램을 지운 뒤 <code>문서\Cluey</code> 폴더를 지우면 모두 사라집니다.</li>
+    <li>로그인 정보: 설정, 계정에서 로그아웃을 누르면 이 PC 의 로그인 정보를 지웁니다. 다른 PC 로그아웃을 누르면 나머지 PC 의 로그인이 끊깁니다. 90일 동안 쓰지 않은 PC 는 저절로 끊깁니다. 구글 계정의 <a href="https://myaccount.google.com/permissions">서드 파티 앱 및 서비스</a>에서 Cluey 를 지워도 됩니다.</li>
+    <li>서버의 계정과 메모 자료: 설정, 계정에서 탈퇴하면 모든 PC 의 로그인이 끊기고 30일 동안 보관합니다(그 안에 다시 로그인하면 되살아납니다). 30일이 지나면 이름, 닉네임, 이메일, 친구 목록, 친구 요청, 내 차단 목록, 보내고 받은 메모, 1:1 기록, 로그인 정보, 서버에 맞춰 둔 메모와 그림을 모두 지웁니다. 내 PC 의 메모는 지워지지 않습니다.</li>
+    <li>다만 다른 사람이 나를 차단해 둔 경우, 그 사람의 차단 목록에 있는 내 이메일 주소는 그 사람의 정보라 함께 지워지지 않습니다.</li>
+    <li>서버 용량은 사람마다 1GB 입니다. 공유 폴더에 둔 메모와 그림, 지운 메모 보관분은 그 폴더 주인의 용량으로 계산하고, 폴더를 함께 쓰는 사람의 용량에는 넣지 않습니다.</li>
+    <li>API 키: 설정에서 끊을 수 있고, 끊은 키는 쓸 수 없습니다. 키 사용 기록은 사람마다 최근 1000건만 남기고 오래된 것부터 지웁니다. 탈퇴하면 키는 바로 끊기고, 30일 뒤 키와 기록을 지웁니다.</li>
+    <li>공유 폴더에서 지운 메모는 30일 동안 보관하고(주인과 고치기 권한인 사람이 최근 지운 메모에서 되살릴 수 있습니다) 그 뒤 지웁니다. 공유 폴더를 끝내면 받은 사람은 더 볼 수 없고 메모는 주인에게 남습니다. 폴더에서 나가거나 빠진 사람이 쓴 메모는 폴더에 그대로 남고, 그 사람의 PC 에서는 그 폴더가 사라집니다.</li>
+    <li>공유 폴더 주인이 탈퇴하면, 탈퇴 전에 다른 사람에게 주인을 넘길 수 있습니다(앱이 탈퇴 전에 묻습니다). 넘기지 않으면 30일 보관 기간 동안은 공유 폴더가 그대로 쓰이고, 30일이 지나면 그 사람이 주인인 공유 폴더와 그 안의 메모, 지운 메모 보관분을 지웁니다. 이 폴더를 함께 쓰던 사람은 그 뒤로 볼 수 없으니 필요한 내용은 미리 자기 폴더로 옮겨 두세요.</li>
+    <li>보낸 메모는 받거나 거절하면 바로, 아니면 30일 뒤 지웁니다. 실시간 연결의 접속 중 여부와 초대는 저장하지 않고, 친구와 함께한 자리의 진행 상태는 끝나면 지웁니다. 메모 보내기 창의 내 보내기 정보 지우기를 누르면 서버의 내 열쇠, 이름, 친구 목록, 친구 요청, 내 차단 목록, 받기 전 메모, 1:1 기록을 지웁니다.</li>
+    <li>구글 드라이브의 예전 메모 자료: 구글 드라이브 웹, 설정, 앱 관리, Cluey, 숨겨진 앱 데이터 삭제로 지울 수 있습니다.</li>
+    <li>위 방법 말고 문의 메일로 지워 달라고 요청해도 됩니다.</li>
   </ul>
 
   <h2>5. 다른 곳에 주거나 맡기기</h2>
-  <p>Cluey 는 개인정보를 다른 사람이나 회사에 팔거나 주지 않습니다. 동기화한 자료는 여러분이 구글과 맺은 약관에 따라 구글 드라이브에 보관됩니다. 메모 보내기 서버는 <strong>Cloudflare, Inc.</strong>(클라우드플레어 Workers · D1) 위에서 돌아가며, 위 1번 표의 보내기 정보가 그곳에 보관됩니다. 메모 내용은 잠긴 채로만 보관되어 클라우드플레어도 볼 수 없습니다.</p>
+  <p>Cluey 는 개인정보를 다른 사람이나 회사에 팔거나 주지 않습니다. 서버는 Cloudflare, Inc.(클라우드플레어 Workers, D1, R2) 위에서 돌아가며, 위 1번 표의 서버 정보가 그곳에 보관됩니다. 잠근 메모와 보내는 중인 메모는 암호화된 채로만 보관되어 클라우드플레어도 읽을 수 없습니다. 법에 따른 요청이 있을 때는 3번의 원칙대로 처리하고 기록을 남깁니다.</p>
 
   <h2>6. 어린이</h2>
   <p>Cluey 는 만 14세 미만 어린이를 대상으로 하지 않으며, 어린이의 정보를 따로 모으지 않습니다.</p>
@@ -86,10 +134,11 @@
 
   <section class="en" lang="en">
     <h2>Summary in English</h2>
-    <p>Cluey is a note-taking app for Windows. Notes are stored on the user's PC and, only if the user turns on sync, in the hidden application data folder (appDataFolder) of the user's own Google Drive. Only when the user uses the optional "send a note" feature, Cluey's relay server (hosted on Cloudflare Workers/D1) stores the user's Google email address, a public key, the user's friend list and friend requests (email addresses and the nicknames the user gives friends, visible only to that user), and notes that are end-to-end encrypted with the recipient's public key until the recipient accepts or rejects them (at most 30 days). It also stores the display name the user chooses for friends, favorite marks, and the user's block list (email addresses). While Cluey is running and signed in, it keeps a real-time connection to the server to show which friends are online and to deliver invitations for features used together with friends; presence and invitations are not stored, and the state of a shared session is deleted when it ends. The developer and Cloudflare cannot read the notes.</p>
-    <p>Cluey requests the <code>drive.appdata</code> scope to create, read, update and delete its own files in that folder, and <code>openid</code>/<code>email</code> to show which account is signed in and, for the send feature, to identify sender and recipient on the relay server. It cannot see any other Drive files. Apart from the email address used by the send feature, Google user data is transferred only between the user's PC and the user's own Google Drive; it is never sold, never used for advertising, and never read by humans. Refresh tokens are stored on the PC encrypted with Windows DPAPI. Password-locked notes are uploaded encrypted.</p>
-    <p>Cluey's use and transfer of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
-    <p>Users can delete their relay-server data at any time with "내 보내기 정보 지우기" in the send dialog, or by email. Users can sign out in Settings → Sync (which revokes the token), remove Cluey at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>, and delete Cluey's hidden app data from Google Drive settings → Manage apps. Contact: <a href="mailto:kyg6135@naver.com">kyg6135@naver.com</a>.</p>
+    <p>Cluey is a note-taking app for Windows. Notes are stored on the user's PC. Signing in is optional and uses a Google account only. If the user signs in, Cluey stores the Google email address, the Google profile name (as the real name), a nickname chosen by the user, the time of consent, and login information (PC name, first and last use) on Cluey's server, which runs on Cloudflare (Workers, D1, R2). Signed-in users' notes, folders, templates, places and images are synced to the server so that several PCs can be kept in step and so that sending notes and features used with friends work. Notes that are not locked can be read by the service for those features. The operator opens a user's notes only to answer the user's inquiry, to handle a security incident or report, or to comply with a legal request, with a reason, and every access is logged. Notes locked with a password are encrypted on the PC and stay encrypted on the server; nobody, including the operator, can read them, and passwords cannot be recovered.</p>
+    <p>Signed-in users' apps send usage statistics once a day, counts only and never content: the number of uses of each feature, the number of notes, characters, folders and locked notes, the app version, and app error types and locations. Signed-out users send nothing. The optional "send a note" feature stores a public key, friend lists and requests, a nickname, block lists, 1:1 records of features used with friends, and notes end-to-end encrypted with the recipient's public key (at most 30 days). Real-time presence and invitations are not stored.</p>
+    <p>Cluey requests only the openid, email and profile Google scopes. It no longer requests Google Drive access. Users who granted Drive access in an earlier version have their Cluey application data in Drive read once, to migrate it to the server; the Drive copies are only read, never changed or deleted, and users can delete them in Google Drive settings. Google user data is never sold or used for advertising. Cluey's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+    <p>API keys are optional and created by the user. A program holding a key can read the user's synced notes within the key's folder scope (never locked notes or folders hidden from AI), the user can revoke a key at any time, and key usage is logged without note text. Shared folders are optional: people the user shares a folder with can see its notes and, if allowed, edit them; locked notes cannot be placed in a shared folder; deleted notes in a shared folder are kept for 30 days; shared folder data counts toward the owner's storage. If the owner deletes the account, shared folders they own are deleted after 30 days unless ownership is transferred first.</p>
+    <p>Each user has 1 GB of server storage. When a user deletes the account, the account is kept for 30 days (signing in again within that time restores it), then all server data is deleted; notes on the user's PCs are not deleted. Refresh and session tokens on the PC are encrypted with Windows DPAPI. Contact: <a href="mailto:kyg6135@naver.com">kyg6135@naver.com</a>.</p>
   </section>
 </article>
 </main>

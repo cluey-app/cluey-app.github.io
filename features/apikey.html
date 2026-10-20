@@ -76,7 +76,7 @@
 <h3>새 메모 넣기</h3>
 <pre><code>curl -X POST "https://cluey-share.cluey-share.workers.dev/v1/ext/memo" -H "Authorization: Bearer clk_여기에키" -H "Content-Type: application/json" -d "{\"title\":\"주간 정리\",\"body\":\"첫 줄\n\n둘째 문단\"}"</code></pre>
 <p>넣은 메모는 서버에 올라가고, 사용자의 PC 들이 다음 동기화 때 받아 갑니다. 작성자는 <code>API · 키 이름</code> 으로 표시됩니다.</p>
-<figure class="shotfig" data-shot="api-key-curl"><div class="ph" role="img" aria-label="명령 프롬프트에서 부른 결과 (준비 중)"><div><strong>화면 사진 자리</strong>api-key-curl<br>명령 프롬프트에서 부른 결과</div></div><figcaption>명령 프롬프트에서 부른 결과</figcaption></figure>
+<figure class="shotfig" data-shot="api-key-curl"><img src="../img/shots/api-key-curl.png" alt="명령 프롬프트에서 curl 로 search 를 불러 여행 준비 메모 두 개가 JSON 으로 나온 화면. 키는 가려져 있다" width="1280" height="720" loading="lazy"><figcaption>명령 프롬프트에서 부른 결과</figcaption></figure>
 <h2>오류가 나면</h2>
 <div class="tablebox"><table>
 <thead><tr><th>상태</th><th>뜻</th></tr></thead>

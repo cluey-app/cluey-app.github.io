@@ -262,3 +262,23 @@ pre code { background: none; color: inherit; padding: 0; word-break: normal; }
   .fact b { min-width: 64px; font-size: 19px; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+/* 같이 쓰기 도식 (index.html 인라인 SVG) */
+.tog { display: block; width: 100%; height: auto; font-family: var(--font-ui); }
+.tog-tall { display: none; max-width: 420px; margin: 0 auto; }
+.tog .card { fill: var(--dark-2); stroke: #3A3D47; }
+.tog .srv { fill: var(--dark-2); stroke: var(--orange); }
+.tog .note { fill: var(--dark); stroke: #3A3D47; }
+.tog .mon, .tog .srvi { stroke: var(--dark-ink-2); }
+.tog .srvi { stroke: var(--dark-ink); }
+.tog .t1 { fill: var(--dark-ink); }
+.tog .t2 { fill: var(--dark-ink-2); }
+.tog .ti { fill: var(--ink); }
+.tog .chip { fill: var(--paper); stroke: var(--rule); }
+.tog .chip-l { fill: #2B2D35; stroke: var(--orange); }
+.tog .doc { stroke: var(--ink-3); }
+.tog .acc-f { fill: var(--orange); }
+.tog .acc-s { stroke: var(--orange); }
+.tog .link { stroke: #5A5E6B; }
+@media (max-width: 560px) { .tog-wide { display: none; } .tog-tall { display: block; } }
+/* 같이 쓰기 도식 끝 */

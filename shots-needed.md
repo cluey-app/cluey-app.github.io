@@ -5,7 +5,7 @@
 사진을 넣을 때는 상자(`<figure class="shotfig">` 안의 `.ph`)를 `<img src="..." alt="설명" width="1280" height="720" loading="lazy">` 로 바꿉니다. APNG 도 같은 `<img>` 입니다.
 
 
-(완료) 표시는 `img/shots/<이름>.png` 로 넣은 것입니다. 2배(2560 너비)로 찍었고 페이지에는 1280 x 720 (hero-main 은 1280 x 800, 블록 APNG 셋은 960 x 540) 으로 넣었습니다. APNG 는 Qt 가 찍은 PNG 장면을 `tools/apng.py` 가 이어 붙인 것입니다(Pillow · ffmpeg 없이). mcp-claude-example · api-key-curl · together-overview 는 HTML 로 그려 Qt 로 찍은 그림입니다. 다시 찍으려면 Cluey 저장소의 `tools/site_shots.py` 를 돌립니다.
+(완료) 표시는 `img/shots/<이름>.png` 로 넣은 것입니다. 2배(2560 너비)로 찍었고 페이지에는 1280 x 720 (hero-main 은 1280 x 800, 블록 APNG 셋은 960 x 540) 으로 넣었습니다. APNG 는 Qt 가 찍은 PNG 장면을 `tools/apng.py` 가 이어 붙인 것입니다(Pillow · ffmpeg 없이). mcp-claude-example · api-key-curl 은 HTML 로 그려 Qt 로 찍은 그림입니다. together-overview 는 사진이 아니라 index.html 에 직접 넣은 인라인 SVG 두 벌(넓은 화면 · 560px 이하 세로 배치)이고 색은 style.css 변수, 글꼴은 페이지 글꼴을 씁니다. 다시 찍으려면 Cluey 저장소의 `tools/site_shots.py` 를 돌립니다.
 
 | 이름 | 쪽 | 종류 | 크기 | 무엇을 보여 주나 |
 |---|---|---|---|---|
@@ -29,7 +29,7 @@
 | api-key-curl (완료) | features/apikey.html | PNG | 1280x720 | 명령 프롬프트 모양 그림에 search 를 부른 JSON 결과. 응답은 이 PC 안에 띄운 서버 코드(wrangler dev --local)에 실제로 부른 그대로, 키는 clk_••••xxxx 로 가림. |
 | feature-tour (완료) | index.html | APNG | 1280x720 | Cluey 를 켜서 새 메모에 쓰고, ~ 로 기한을 정하고, 할 일 탭과 검색을 보여 주는 12초 이내 반복 영상. |
 | templates-gallery (완료) | index.html | PNG | 1280x720 | 하루 일기, 데일리 플래너, 독서 기록, 프로젝트 기획 양식으로 쓴 메모를 나란히. 위 네 카드를 실제 화면으로 바꿀 자리. |
-| together-overview (완료) | index.html | PNG | 1280x720 | PC 두 대와 친구 PC, 가운데 서버를 그린 간단한 도식. 잠긴 메모는 자물쇠가 채워진 채 지나간다는 표시. |
+| together-overview (완료) | index.html | 인라인 SVG | 1280x720 | PC 두 대와 친구 PC, 가운데 서버를 그린 간단한 도식. 잠긴 메모는 자물쇠가 채워진 채 지나간다는 표시. |
 | tips-shortcuts (완료) | tips.html | PNG | 1280x720 | 앱 안 도움말의 단축키 표 화면, 또는 따로 만든 단축키 카드 이미지. |
 | compare-screens (완료) | compare.html | PNG | 1280x720 | Cluey 에서 쓴 회의록 화면 한 장. (다른 프로그램 화면은 쓰지 않는다.) |
 | hero-main (완료) | index.html | PNG | 1280x800 | 첫 화면 오른쪽의 그림. 지금은 HTML 로 그린 모형(`.mock`). 실제 화면(폴더 목록, 회의 메모, 할 일 표시)으로 바꾸려면 `.mock` 전체를 이미지로 교체. 일상 메모로. |

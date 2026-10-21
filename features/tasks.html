@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>할 일과 기한 | Cluey</title>
+<meta name="description" content="메모 속 할 일이 한곳에 모이고, 달력으로 기한을 정하면 그날 알려 주는 방법.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Cluey">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:title" content="할 일과 기한 | Cluey">
+<meta property="og:description" content="메모 속 할 일이 한곳에 모이고, 달력으로 기한을 정하면 그날 알려 주는 방법.">
+<meta property="og:url" content="https://cluey-app.github.io/features/tasks.html">
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="https://cluey-app.github.io/features/tasks.html">
+<link rel="icon" href="../logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&family=Gaegu:wght@700&display=swap">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<a class="skip" href="#main">본문으로 건너뛰기</a>
+<header class="site-head"><div class="wrap">
+  <a class="brand" href="../index.html"><img src="../logo.svg" alt="" width="30" height="30"><span>Cluey</span></a>
+  <nav aria-label="사이트"><a href="../features/" aria-current="page">기능</a><a href="../tips.html">사용 팁</a><a href="../faq.html">자주 묻는 질문</a><a href="../compare.html">비교</a><a href="../index.html#news">새 소식</a></nav>
+  <a class="nav-dl" href="../index.html#download">내려받기</a>
+</div></header>
+<main id="main">
+<div class="page-head"><div class="wrap narrow">
+  <p class="crumb"><a href="../features/">기능</a> / 할 일과 기한</p>
+  <h1>할 일과 기한</h1>
+  <p>메모 속 할 일이 한곳에 모이고, 달력으로 기한을 정하면 그날 알려 줍니다.</p>
+</div></div>
+<div class="wrap narrow article">
+
+<h2>메모 속에 할 일을 적습니다</h2>
+<p>본문 줄 맨 앞에 <code>[]</code> 를 치면 체크 칸이 생깁니다. 도구 줄의 할 일 단추를 써도 됩니다. 회의록의 "할 일" 칸도 같은 체크 칸이라, 어느 메모에 적었든 한곳에 모입니다.</p>
+<h2>기한은 달력으로 정합니다</h2>
+<ol class="steps">
+<li>할 일 줄에서 <code>~</code> 를 칩니다. 고르기 창이 뜹니다.</li>
+<li>왼쪽에서 오늘, 내일, 모레, 이번 주 금요일, 다음 주 월요일 · 금요일, 2주 뒤 중 하나를 고르거나, 오른쪽 달력에서 날짜를 누릅니다. 방향키와 <kbd>Enter</kbd> 로도 되고 <kbd>Esc</kbd> 로 닫습니다.</li>
+<li>고르면 <code>~</code> 가 <code>~10.24</code> 처럼 날짜로 바뀝니다. 날짜를 직접 쳐도 됩니다.</li>
+</ol>
+<p>이미 적은 할 일은 줄에 마우스를 올리면 줄 끝에 달력 단추가 나타납니다. 기한을 바꾸거나 지울 수 있고, 기한이 없던 줄에는 새로 붙입니다.</p>
+<figure class="shotfig" data-shot="tasks-due-picker"><img src="../img/shots/tasks-due-picker.png" alt="할 일 줄에서 ~ 를 친 뒤 뜬 기한 고르기 창. 왼쪽은 오늘 · 내일 같은 빠른 날짜, 오른쪽은 달력" width="1280" height="720" loading="lazy"><figcaption>~ 를 치면 빠른 날짜와 달력이 나옵니다</figcaption></figure>
+<h2>할 일을 한곳에서 봅니다</h2>
+<p>위쪽 <b>할 일</b> 탭에서 끝나지 않은 할 일을 모아 봅니다. 줄을 누르면 그 할 일이 든 메모로 갑니다. 잠긴 메모의 할 일은 잠긴 동안 모음에서 빠집니다.</p>
+<h2>기한이 되면 알려 줍니다</h2>
+<ul>
+<li>끝나지 않은 할 일 중 기한이 오늘이거나 이미 지난 것을 알립니다.</li>
+<li>하루에 한 번입니다. Cluey 를 켤 때 바로, 켜 둔 채 날이 바뀌면 오전 9시에 알립니다.</li>
+<li>알림을 누르면 할 일 탭이 열립니다.</li>
+<li>Cluey 는 윈도우를 켤 때 자동으로 실행되고 알림 영역(시계 옆)에 숨어 있다가 알려 줍니다. 설정에서 끌 수 있습니다.</li>
+</ul>
+<div class="callout"><p><b>시각과 날짜 빨리 넣기</b>: <kbd>Ctrl</kbd>+<kbd>;</kbd> 는 지금 시각(14:07), <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>;</kbd> 는 오늘 날짜(10.19 (월))를 본문에 넣습니다.</p></div>
+<figure class="shotfig" data-shot="tasks-list"><img src="../img/shots/tasks-list.png" alt="할 일 탭. 여러 메모의 할 일이 기한 지남, 7일 안 순으로 모이고 오늘 기한이 표시된다" width="1280" height="720" loading="lazy"><figcaption>할 일 탭에 기한 순으로 모입니다</figcaption></figure>
+
+<aside class="related" aria-label="함께 보면 좋은 글"><h2>함께 보면 좋은 글</h2><ul><li><a href="../features/templates.html">양식과 꾸미기</a></li><li><a href="../features/sticky.html">스티커 메모</a></li><li><a href="../features/search.html">검색</a></li><li><a href="../tips.html">사용 팁</a></li><li><a href="../faq.html">자주 묻는 질문</a></li></ul></aside>
+</div>
+</main>
+<section class="closing" aria-label="마무리"><div class="wrap">
+  <p>생각이 막힐 땐, 클루이를 켜세요.</p>
+  <a class="btn" href="../index.html#download">Windows 용 내려받기</a>
+</div></section>
+<footer class="site-foot"><div class="wrap">
+  <span>© 2026 Cluey</span>
+  <span class="links"><a href="../terms.html">이용약관</a><a href="../privacy.html">개인정보처리방침</a><a href="mailto:kyg6135@naver.com">문의</a></span>
+</div></footer>
+</body>
+</html>

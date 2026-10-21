@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 도구 연결 (MCP) | Cluey</title>
+<meta name="description" content="Claude 데스크톱, Claude Code, Codex 에서 Cluey 메모를 찾고 읽고 새 메모로 남기게 연결하는 방법과 예시 질문.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Cluey">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:title" content="AI 도구 연결 (MCP) | Cluey">
+<meta property="og:description" content="Claude 데스크톱, Claude Code, Codex 에서 Cluey 메모를 찾고 읽고 새 메모로 남기게 연결하는 방법과 예시 질문.">
+<meta property="og:url" content="https://cluey-app.github.io/features/mcp.html">
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="https://cluey-app.github.io/features/mcp.html">
+<link rel="icon" href="../logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&family=Gaegu:wght@700&display=swap">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<a class="skip" href="#main">본문으로 건너뛰기</a>
+<header class="site-head"><div class="wrap">
+  <a class="brand" href="../index.html"><img src="../logo.svg" alt="" width="30" height="30"><span>Cluey</span></a>
+  <nav aria-label="사이트"><a href="../features/" aria-current="page">기능</a><a href="../tips.html">사용 팁</a><a href="../faq.html">자주 묻는 질문</a><a href="../compare.html">비교</a><a href="../index.html#news">새 소식</a></nav>
+  <a class="nav-dl" href="../index.html#download">내려받기</a>
+</div></header>
+<main id="main">
+<div class="page-head"><div class="wrap narrow">
+  <p class="crumb"><a href="../features/">기능</a> / AI 도구 연결 (MCP)</p>
+  <h1>AI 도구 연결 (MCP)</h1>
+  <p>Claude · Codex 같은 AI 가 내 메모를 찾고 읽고 새 메모로 남깁니다.</p>
+</div></div>
+<div class="wrap narrow article">
+
+<p>MCP 는 AI 도구가 다른 프로그램과 대화하는 공통 방식입니다. Cluey 를 연결하면 AI 에게 "지난주 회의 메모 정리해 줘" 같은 말을 할 수 있습니다. 로그인은 필요 없습니다.</p>
+<h2>AI 가 할 수 있는 일</h2>
+<div class="tablebox"><table>
+<thead><tr><th>이름</th><th>하는 일</th></tr></thead>
+<tbody>
+<tr><th scope="row">폴더 목록</th><td>숨기지 않은 폴더를 보여 줍니다.</td></tr>
+<tr><th scope="row">메모 찾기</th><td>글자, 날짜, 폴더로 찾습니다. 제목, 앞부분, 날짜만 돌려줍니다.</td></tr>
+<tr><th scope="row">메모 읽기</th><td>본문 전체를 글자로 읽습니다.</td></tr>
+<tr><th scope="row">새 메모</th><td>제목, 본문, 폴더(선택)로 새 메모를 만듭니다.</td></tr>
+</tbody></table></div>
+<p>고치기와 지우기는 없습니다. 새 메모는 기본적으로 <b>AI 메모</b> 폴더에 들어가고(없으면 만듭니다), 목록에 "AI가 씀" 표시가 붙어 내가 쓴 메모와 구분됩니다.</p>
+
+<h2>연결하기</h2>
+<ol class="steps">
+<li>Cluey 설정(톱니바퀴)의 <b>AI 연결</b> 탭을 엽니다. 처음엔 꺼져 있습니다. 스위치를 켜면 접속 키가 만들어집니다.</li>
+<li><b>AI 도구에 연결</b> 목록에서 쓰는 도구(<b>Claude Code</b>, <b>Claude 데스크톱</b>, <b>Codex</b>) 옆의 <b>연결</b> 을 누릅니다.</li>
+<li>어느 파일에 무엇을 넣는지 보여 주는 창이 뜹니다. 확인하고 <b>넣기</b> 를 누릅니다.</li>
+<li>그 도구를 다시 시작합니다. (아래 표 참고)</li>
+</ol>
+<figure class="shotfig" data-shot="mcp-settings"><img src="../img/shots/mcp-settings.png" alt="설정의 AI 연결. 켜기, 가려진 접속 키, Claude Code · Claude 데스크톱 · Codex 연결 단추, 숨긴 폴더, 최근 기록" width="1280" height="720" loading="lazy"><figcaption>설정의 AI 연결 탭</figcaption></figure>
+<figure class="shotfig" data-shot="mcp-connect-confirm"><img src="../img/shots/mcp-connect-confirm.png" alt="Claude 데스크톱 연결 확인 창. 넣을 파일 경로와 넣을 내용(키는 가림), 백업 안내" width="1280" height="720" loading="lazy"><figcaption>넣기 전에 파일과 내용을 보여 줍니다</figcaption></figure>
+<div class="tablebox"><table>
+<thead><tr><th>도구</th><th>Cluey 가 고치는 설정 파일</th><th>연결한 뒤</th></tr></thead>
+<tbody>
+<tr><th scope="row">Claude 데스크톱</th><td><code>%APPDATA%\Claude\claude_desktop_config.json</code></td><td>Claude 앱을 <b>완전히 끝냈다가</b> 다시 켭니다. 창만 닫으면 적용되지 않습니다. 알림 영역(시계 옆)의 Claude 아이콘을 눌러 끝내기까지 합니다.</td></tr>
+<tr><th scope="row">Claude Code</th><td><code>~/.claude.json</code></td><td>Claude Code 를 다시 시작합니다.</td></tr>
+<tr><th scope="row">Codex</th><td><code>~/.codex/config.toml</code></td><td>Codex 를 다시 시작합니다.</td></tr>
+</tbody></table></div>
+<ul>
+<li>파일에는 <code>cluey</code> 항목만 넣고 다른 서버와 설정은 그대로 둡니다. 원래 파일은 같은 폴더에 <code>.cluey-backup-날짜시각</code> 이름으로 복사해 둡니다.</li>
+<li>PC 에 설치되어 있지 않은 도구는 "설치되어 있지 않음"으로 보이고 연결하지 않습니다.</li>
+<li>Cursor, VS Code 같은 다른 도구는 목록 아래에 붙여 넣을 설정이 나옵니다.</li>
+<li>연결을 끊으려면 목록의 <b>연결 끊기</b> 를 누릅니다. 그 도구의 설정 파일에서 Cluey 항목만 지웁니다.</li>
+<li>접속 키를 <b>다시 만들면</b> 이전 키는 바로 쓸 수 없습니다. 이미 연결한 도구는 <b>다시 연결</b> 을 눌러 주세요.</li>
+</ul>
+
+<h2>이렇게 물어보세요</h2>
+<p>연결한 AI 도구에서 평소처럼 말하면 됩니다. 처음 쓸 때 도구가 Cluey 를 써도 되는지 물어볼 수 있습니다.</p>
+<ul>
+<li>"Cluey 에서 지난주 회의 메모를 찾아서 결정 사항만 정리해 줘."</li>
+<li>"Cluey 의 '여행' 폴더에 있는 메모를 읽고 준비물 목록을 만들어 줘."</li>
+<li>"방금 정리한 내용을 Cluey 에 '주간 정리' 제목의 새 메모로 남겨 줘."</li>
+<li>"Cluey 에 10월에 쓴 견적 관련 메모가 있는지 찾아 줘."</li>
+</ul>
+<figure class="shotfig" data-shot="mcp-claude-example"><img src="../img/shots/mcp-claude-example.png" alt="AI 도구에 지난주 여행 준비 메모를 정리해 달라고 하자 Cluey 에서 메모 두 개를 찾아(cluey_search) 일정, 준비물, 예산, 남은 일을 정리해 답하는 그림" width="1280" height="720" loading="lazy"><figcaption>AI 도구(예: Claude 데스크톱)에서 Cluey 메모를 찾아 정리해 달라고 묻는 모습을 그린 그림 (실제 화면이 아닙니다)</figcaption></figure>
+
+<h2>안전하게 쓰기</h2>
+<ul>
+<li><b>내 PC 안에서만</b> 열립니다. 인터넷으로 들어올 수 있는 주소가 아니고, 메모가 Cluey 밖으로 나가는 곳은 내가 연결한 AI 도구가 읽어 가는 부분뿐입니다.</li>
+<li><a href="../features/lock.html">잠근 메모</a>는 어떤 경우에도 AI 에게 보이지 않습니다.</li>
+<li>보이고 싶지 않은 폴더는 오른쪽 클릭의 <b>AI에게 숨기기</b> 로 뺍니다. 설정 화면에 숨긴 폴더 목록이 있습니다.</li>
+<li>설정 화면에 최근 기록이 남습니다. 언제 어떤 도구가 찾고, 읽고, 새 메모를 썼는지 볼 수 있고 지울 수도 있습니다.</li>
+<li>Cluey 가 꺼져 있어도 AI 가 부르면 창 없이 알림 영역에만 켜져서 답합니다.</li>
+<li>같은 PC 가 아닌 곳의 AI(웹의 Claude, ChatGPT 앱 등)는 이 방법으로 연결할 수 없습니다. 인터넷으로 가져가야 한다면 <a href="../features/apikey.html">API 키</a>를 씁니다.</li>
+</ul>
+
+<aside class="related" aria-label="함께 보면 좋은 글"><h2>함께 보면 좋은 글</h2><ul><li><a href="../features/apikey.html">API 키</a></li><li><a href="../features/lock.html">메모 잠금</a></li><li><a href="../features/sync.html">PC 여러 대 동기화</a></li><li><a href="../tips.html">사용 팁</a></li><li><a href="../faq.html">자주 묻는 질문</a></li></ul></aside>
+</div>
+</main>
+<section class="closing" aria-label="마무리"><div class="wrap">
+  <p>생각이 막힐 땐, 클루이를 켜세요.</p>
+  <a class="btn" href="../index.html#download">Windows 용 내려받기</a>
+</div></section>
+<footer class="site-foot"><div class="wrap">
+  <span>© 2026 Cluey</span>
+  <span class="links"><a href="../terms.html">이용약관</a><a href="../privacy.html">개인정보처리방침</a><a href="mailto:kyg6135@naver.com">문의</a></span>
+</div></footer>
+</body>
+</html>

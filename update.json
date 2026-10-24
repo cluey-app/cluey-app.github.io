@@ -1,8 +1,8 @@
 {
-  "version": "1.5.0",
-  "url": "https://github.com/cluey-app/cluey/releases/download/v1.5.0/Cluey-Setup-1.5.0.exe",
-  "sha256": "31835e601114ebad722f5fe0599e91a5fbfbaaf86a2f79054939c63785603985",
-  "size": 138778484,
-  "notes": "새로 생긴 기능\n· 공유 폴더 메모 편집 잠금: 공유 폴더의 메모는 [편집] 을 눌러 고치고, 다 고치면 [완료] 를 누릅니다. 누가 편집 중이면 다른 사람은 읽기만 하고 '○○ 님이 편집 중' 이 보입니다. 1분 동안 손을 놓으면 저절로 저장되고 풀립니다.\n· 고치기 요청: 남이 편집 중인 메모에 [고치기 요청] 을 보내면 상대가 넘겨줄 수 있고, 끝나면 '이제 편집할 수 있어요' 로 알려 드립니다.\n· 인터넷이 끊겨 있어도 고칠 수 있습니다. 다시 연결되면 맞추고, 그사이 다른 사람이 고쳤으면 사본으로 남깁니다.\n\n고친 것\n· 오른쪽 화면과 맞바꾸기를 누른 직후 오른쪽을 닫으면 왼쪽이 빈 화면이 되던 것을 고쳤습니다.\n· 자잘한 개선\n\n알아 두세요\n· 공유 폴더를 함께 쓰는 분들 모두 1.5.0 으로 올려야 편집 잠금이 지켜집니다.",
-  "sig": "O8yB2HQnkTeRm+2cLIHL82WWmr42YVYx2bF9CmSgWa1qLdsfwqh9iXr1zXkTw7ZN0gOpcBcre0Jg3QmnblL5CA=="
+  "version": "1.5.1",
+  "url": "https://github.com/cluey-app/cluey/releases/download/v1.5.1/Cluey-Setup-1.5.1.exe",
+  "sha256": "24a8df5ae1f36751acf96718e4f0b4f72b4bdde72b70fe6cc6ca0eb4d41c071b",
+  "size": 138846456,
+  "notes": "고친 것\n· 일부 집 인터넷(IPv6 가 막힌 곳)에서 로그인하면 '계정을 연결하는 중' 에서 멈추고 동기화가 되지 않던 것을 고쳤습니다.\n· 공유 메모 편집: 고치기 요청이 두 개 오면 앞 요청이 사라지던 것, 같은 시각에 생긴 사본 이름이 같던 것, 스티커 창과 본 창을 함께 쓸 때 편집이 풀리지 않거나 너무 일찍 풀리던 것을 고쳤습니다.\n· 자잘한 개선",
+  "sig": "enxQi6WBn7KOyZJ8e+Z/oWuQ7DJAiuocZgh4gLLyaiaYeD4cfR89mJlXTRWzxDMCAXOmx40KKG+XJPpTeslEDQ=="
 }

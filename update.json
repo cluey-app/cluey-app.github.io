@@ -1,8 +1,8 @@
 {
-  "version": "1.5.4",
-  "url": "https://github.com/cluey-app/cluey/releases/download/v1.5.4/Cluey-Setup-1.5.4.exe",
-  "sha256": "abb43ee4d6e125a79283b0af6c5e9fc274e4f55cb43a50c2ef2298f84ad0b5fb",
-  "size": 138860787,
-  "notes": "고친 것\n· 새로 로그인한 PC 에서 친구 목록 · 메모 보내기 · 받은 메모가 '친구 목록을 불러오지 못했습니다' 나 '구글 드라이브 권한이 없습니다' 로 되지 않던 것을 고쳤습니다. 보내기 암호 열쇠를 구글 드라이브 대신 내 계정의 동기화 공간에 보관합니다. 한 PC 를 여러 계정으로 써도 계정마다 열쇠가 따로입니다.\n· 창이 최대화되지 않은 상태에서 목록을 접은 뒤 맨 위 단추로 다시 펼치지 못하던 것을 고쳤습니다.\n· 자잘한 개선",
-  "sig": "Z/FZDxqXBigOL6lwgwZ/NlWMnydxKwYYqZnhGPHognAf/HrwS0vEaLUJMzpEfOUWhCr8Ngmmqz7v1M/48bAiCw=="
+  "version": "1.6.0",
+  "url": "https://github.com/cluey-app/cluey/releases/download/v1.6.0/Cluey-Setup-1.6.0.exe",
+  "sha256": "2dcdcb09dde36314d286ae1f3be0d59843b4dbbc421e5f31200455cec3010b0d",
+  "size": 138884548,
+  "notes": "자잘한 개선",
+  "sig": "kTYDfGXISEY8g26XWrz1BQ7RN93CYncLT9tEgVi/rbnHpOAaHFWeJq5Y2gJL880YdrXYoeH/f4amA4Em57l7DA=="
 }

@@ -1,8 +1,8 @@
 {
-  "version": "1.6.0",
-  "url": "https://github.com/cluey-app/cluey/releases/download/v1.6.0/Cluey-Setup-1.6.0.exe",
-  "sha256": "2dcdcb09dde36314d286ae1f3be0d59843b4dbbc421e5f31200455cec3010b0d",
-  "size": 138884548,
-  "notes": "자잘한 개선",
-  "sig": "kTYDfGXISEY8g26XWrz1BQ7RN93CYncLT9tEgVi/rbnHpOAaHFWeJq5Y2gJL880YdrXYoeH/f4amA4Em57l7DA=="
+  "version": "1.6.1",
+  "url": "https://github.com/cluey-app/cluey/releases/download/v1.6.1/Cluey-Setup-1.6.1.exe",
+  "sha256": "79247e1916f70fcc84c8e3b6c86f8941e195c63791125bfbb6e929baed6b3b26",
+  "size": 138858559,
+  "notes": "자잘한 개선 · 업데이트 확인 표시 고침",
+  "sig": "aB554stVSWHEnI47SdbKy0Kx3bYR97uCtN7KzPO1GKTl9pk86pbIa+6A2+dzFFY7Z2M/JVFjCmSbjJ4p0pi/DA=="
 }

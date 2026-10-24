@@ -1,8 +1,8 @@
 {
-  "version": "1.5.2",
-  "url": "https://github.com/cluey-app/cluey/releases/download/v1.5.2/Cluey-Setup-1.5.2.exe",
-  "sha256": "a1aa069fc7486e32de3f59831071d9f9b542b356c70eb451758e522f725eb6c0",
-  "size": 138771582,
-  "notes": "고친 것\n· 서버에 연결하지 못할 때 '인터넷에 연결되지 않았습니다' 만 보이던 것을, 어느 단계에서 무엇 때문에 막혔는지(방화벽 · 프록시 · 시간 초과 등) 함께 보이게 했습니다. 설정 > 계정의 [연결 기록 복사] 로 기록을 보낼 수 있습니다(메일 · 토큰 같은 개인 정보는 담지 않습니다).\n· 자잘한 개선",
-  "sig": "bFQXVMIYZai1fP8CTXhc3G6iYA/FZBSZe1XSsI99pGkM0mEmcqzUsnX3+5fqQ0Ty1ZIaJdCUgKBtmBE1rISJCA=="
+  "version": "1.5.3",
+  "url": "https://github.com/cluey-app/cluey/releases/download/v1.5.3/Cluey-Setup-1.5.3.exe",
+  "sha256": "b4f973609627efbc6b4878288f64a6f93471811ff95990ff9d2289a2e15659dd",
+  "size": 138895023,
+  "notes": "고친 것\n· 일부 PC 에서 브라우저로는 되는데 Cluey 만 서버에 연결하지 못하고 'SSL 인증서 확인 실패' 로 '계정을 연결하는 중' 에서 멈추던 것을 고쳤습니다. 이제 인증서 확인을 윈도에 맡겨 브라우저와 같은 기준으로 확인합니다.\n· 설치 폴더에 사용한 공개 소프트웨어의 라이선스 고지를 넣었습니다.\n· 자잘한 개선",
+  "sig": "DqaH3xF/CniYHRxXx96zFw8zttQPyTmeNNGrA05hJEi9/5WlklhvEE5Z1b6HOG5kJkJcQn74LFF6lD67tBM3CQ=="
 }

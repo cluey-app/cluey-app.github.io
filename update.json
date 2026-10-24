@@ -1,8 +1,8 @@
 {
-  "version": "1.5.3",
-  "url": "https://github.com/cluey-app/cluey/releases/download/v1.5.3/Cluey-Setup-1.5.3.exe",
-  "sha256": "b4f973609627efbc6b4878288f64a6f93471811ff95990ff9d2289a2e15659dd",
-  "size": 138895023,
-  "notes": "고친 것\n· 일부 PC 에서 브라우저로는 되는데 Cluey 만 서버에 연결하지 못하고 'SSL 인증서 확인 실패' 로 '계정을 연결하는 중' 에서 멈추던 것을 고쳤습니다. 이제 인증서 확인을 윈도에 맡겨 브라우저와 같은 기준으로 확인합니다.\n· 설치 폴더에 사용한 공개 소프트웨어의 라이선스 고지를 넣었습니다.\n· 자잘한 개선",
-  "sig": "DqaH3xF/CniYHRxXx96zFw8zttQPyTmeNNGrA05hJEi9/5WlklhvEE5Z1b6HOG5kJkJcQn74LFF6lD67tBM3CQ=="
+  "version": "1.5.4",
+  "url": "https://github.com/cluey-app/cluey/releases/download/v1.5.4/Cluey-Setup-1.5.4.exe",
+  "sha256": "abb43ee4d6e125a79283b0af6c5e9fc274e4f55cb43a50c2ef2298f84ad0b5fb",
+  "size": 138860787,
+  "notes": "고친 것\n· 새로 로그인한 PC 에서 친구 목록 · 메모 보내기 · 받은 메모가 '친구 목록을 불러오지 못했습니다' 나 '구글 드라이브 권한이 없습니다' 로 되지 않던 것을 고쳤습니다. 보내기 암호 열쇠를 구글 드라이브 대신 내 계정의 동기화 공간에 보관합니다. 한 PC 를 여러 계정으로 써도 계정마다 열쇠가 따로입니다.\n· 창이 최대화되지 않은 상태에서 목록을 접은 뒤 맨 위 단추로 다시 펼치지 못하던 것을 고쳤습니다.\n· 자잘한 개선",
+  "sig": "Z/FZDxqXBigOL6lwgwZ/NlWMnydxKwYYqZnhGPHognAf/HrwS0vEaLUJMzpEfOUWhCr8Ngmmqz7v1M/48bAiCw=="
 }

@@ -1,8 +1,8 @@
 {
-  "version": "1.5.1",
-  "url": "https://github.com/cluey-app/cluey/releases/download/v1.5.1/Cluey-Setup-1.5.1.exe",
-  "sha256": "24a8df5ae1f36751acf96718e4f0b4f72b4bdde72b70fe6cc6ca0eb4d41c071b",
-  "size": 138846456,
-  "notes": "고친 것\n· 일부 집 인터넷(IPv6 가 막힌 곳)에서 로그인하면 '계정을 연결하는 중' 에서 멈추고 동기화가 되지 않던 것을 고쳤습니다.\n· 공유 메모 편집: 고치기 요청이 두 개 오면 앞 요청이 사라지던 것, 같은 시각에 생긴 사본 이름이 같던 것, 스티커 창과 본 창을 함께 쓸 때 편집이 풀리지 않거나 너무 일찍 풀리던 것을 고쳤습니다.\n· 자잘한 개선",
-  "sig": "enxQi6WBn7KOyZJ8e+Z/oWuQ7DJAiuocZgh4gLLyaiaYeD4cfR89mJlXTRWzxDMCAXOmx40KKG+XJPpTeslEDQ=="
+  "version": "1.5.2",
+  "url": "https://github.com/cluey-app/cluey/releases/download/v1.5.2/Cluey-Setup-1.5.2.exe",
+  "sha256": "a1aa069fc7486e32de3f59831071d9f9b542b356c70eb451758e522f725eb6c0",
+  "size": 138771582,
+  "notes": "고친 것\n· 서버에 연결하지 못할 때 '인터넷에 연결되지 않았습니다' 만 보이던 것을, 어느 단계에서 무엇 때문에 막혔는지(방화벽 · 프록시 · 시간 초과 등) 함께 보이게 했습니다. 설정 > 계정의 [연결 기록 복사] 로 기록을 보낼 수 있습니다(메일 · 토큰 같은 개인 정보는 담지 않습니다).\n· 자잘한 개선",
+  "sig": "bFQXVMIYZai1fP8CTXhc3G6iYA/FZBSZe1XSsI99pGkM0mEmcqzUsnX3+5fqQ0Ty1ZIaJdCUgKBtmBE1rISJCA=="
 }

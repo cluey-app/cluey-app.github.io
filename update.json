@@ -1,8 +1,8 @@
 {
-  "version": "1.7.2",
-  "url": "https://github.com/cluey-app/cluey/releases/download/v1.7.2/Cluey-Setup-1.7.2.exe",
-  "sha256": "57e260f5e0ca45e91fd4fa118addeb8c9b4f610d03876a01d0d51703708409b4",
-  "size": 138877236,
-  "notes": "슬로모션 짧게 · 업데이트가 설치되지 않던 문제 고침",
-  "sig": "XHHLdI8PKM9o43dqRQPWtslxFzvaecwe7Nvxl6jdlMcVnHSQzpSSZNWEoYXs3/GFvWLUI4l5YgdmKng28K7vDQ=="
+  "version": "1.7.3",
+  "url": "https://github.com/cluey-app/cluey/releases/download/v1.7.3/Cluey-Setup-1.7.3.exe",
+  "sha256": "de8db2486a70d66abf8e26bf382eef29cade8d55ea6adc64fa3b7e1b8de1dcb0",
+  "size": 138882864,
+  "notes": "AI 가 넣은 메모가 바로 목록에 보이게",
+  "sig": "xXd6fFolQeXDRAGEHEcL/aZEcPFE+9zeMNaXRzVU6fWIAL5/b3Obk0HqTiBSaZ8yjSzS8EtbO+BlGGj1ZE/CAg=="
 }

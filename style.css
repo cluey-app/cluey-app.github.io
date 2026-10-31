@@ -226,7 +226,7 @@ a.card:hover .ic { transform: rotate(-8deg) scale(1.08); }
 .steps { list-style: none; padding: 0 !important; counter-reset: s; display: grid; gap: 12px; }
 .steps li { counter-increment: s; position: relative; padding: 4px 0 4px 44px; margin: 0 !important; }
 .steps li::before { content: counter(s); position: absolute; left: 0; top: 2px; width: 30px; height: 30px; border-radius: 9px; background: var(--blue-2); color: var(--blue); font-weight: 700; font-size: 14px; display: flex; align-items: center; justify-content: center; }
-.callout { margin: 22px 0; padding: 16px 20px; border-radius: 14px; background: var(--blue-2); box-shadow: inset 3px 0 0 var(--blue); }
+.callout { margin: 22px 0; padding: 16px 20px; border-radius: 14px; background: var(--blue-2); }
 .callout b { color: var(--navy); }
 .callout p { margin: 0; color: var(--ink-2); }
 .callout p + p { margin-top: 6px; }

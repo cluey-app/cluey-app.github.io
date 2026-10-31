@@ -1,8 +1,8 @@
 {
-  "version": "1.7.3",
-  "url": "https://github.com/cluey-app/cluey/releases/download/v1.7.3/Cluey-Setup-1.7.3.exe",
-  "sha256": "de8db2486a70d66abf8e26bf382eef29cade8d55ea6adc64fa3b7e1b8de1dcb0",
-  "size": 138882864,
-  "notes": "AI 가 넣은 메모가 바로 목록에 보이게",
-  "sig": "xXd6fFolQeXDRAGEHEcL/aZEcPFE+9zeMNaXRzVU6fWIAL5/b3Obk0HqTiBSaZ8yjSzS8EtbO+BlGGj1ZE/CAg=="
+  "version": "2.0.0",
+  "url": "https://github.com/cluey-app/cluey/releases/download/v2.0.0/Cluey-Setup-2.0.0.exe",
+  "sha256": "8b70c9d0604eecf8dc643ced7a16e99466810119028df5c2cafdabfb953bfd44",
+  "size": 148777569,
+  "notes": "새 화면(세 단 · 새 테마 · 새 로고 · 본문 글꼴 넷), 스티커 창 새 모양, 새 메모 폴더 고르기, 자잘한 개선",
+  "sig": "ei00f6bJ+jkQOGxddL0simlEZW4JkW6+Vy4q3L+3sjLCOA75oHVW8/982SMHylx9q9quDnArJPdx2btY1xwlDQ=="
 }

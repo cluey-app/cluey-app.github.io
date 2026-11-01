@@ -1,8 +1,8 @@
 {
-  "version": "2.0.0",
-  "url": "https://github.com/cluey-app/cluey/releases/download/v2.0.0/Cluey-Setup-2.0.0.exe",
-  "sha256": "8b70c9d0604eecf8dc643ced7a16e99466810119028df5c2cafdabfb953bfd44",
-  "size": 148777569,
-  "notes": "새 화면(세 단 · 새 테마 · 새 로고 · 본문 글꼴 넷), 스티커 창 새 모양, 새 메모 폴더 고르기, 자잘한 개선",
-  "sig": "ei00f6bJ+jkQOGxddL0simlEZW4JkW6+Vy4q3L+3sjLCOA75oHVW8/982SMHylx9q9quDnArJPdx2btY1xwlDQ=="
+  "version": "2.1.0",
+  "url": "https://github.com/cluey-app/cluey/releases/download/v2.1.0/Cluey-Setup-2.1.0.exe",
+  "sha256": "80f3240bf3d043a5cba4ed90875e488a186f54c294f0a2a3b0df4c7672eeaece",
+  "size": 148836866,
+  "notes": "꾸미기 정리(묶음 셋 · 줄지 없앰)와 메모 어디에나 붙이는 스티커, 설정 개편(여덟 칸 · 설정 찾기 · 단축키 바꾸기 · 창 닫기 동작 · 자동 맞추기 끄기 · PC 이름 · 연결된 PC · 백업에서 되살리기), 양식 목록 정리, 확인 창 · 알림 · 메뉴 새 모양, 작업 표시줄 아이콘 새 로고",
+  "sig": "r34qz1mdIpQRbWpWzVbfM7aOZHV/Iy3MFqXBKUU9X1S7OIvSUC1Yb5OpRtXdXHypDsa40N0OzsbnC4kcfSwRAg=="
 }

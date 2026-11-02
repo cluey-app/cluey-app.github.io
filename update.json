@@ -1,8 +1,8 @@
 {
-  "version": "2.3.0",
-  "url": "https://github.com/cluey-app/cluey/releases/download/v2.3.0/Cluey-Setup-2.3.0.exe",
-  "sha256": "fe23040349c2549ba5edad63a82e43d3373c30c92034247202df4f232279c11e",
-  "size": 148863415,
-  "notes": "카카오 · 네이버 로그인과 연결된 로그인(계정 하나에 로그인 여러 개), 작업 표시줄 아이콘을 더 크고 또렷하게, 서식 줄을 늘 펼쳐 두고 글자 크기 칸이 잘리지 않게, 웹에서 붙여넣은 글은 Cluey 기본 글자 크기로, 저장 상태 글자가 잘리던 것 고침",
-  "sig": "qRN/gkYhesGprGmPL2bqlWJ/Ai2+3DPY84q6mb23V14TKs3DAKg8YhAqF/1gcoGtADnpU5axYAxDteUBFRuXBw=="
+  "version": "2.3.1",
+  "url": "https://github.com/cluey-app/cluey/releases/download/v2.3.1/Cluey-Setup-2.3.1.exe",
+  "sha256": "48a78dda89c883242ebbb9e444fd413d990a936d5699e1f501d4ef3c37e0784b",
+  "size": 148866281,
+  "notes": "공유 폴더에서 나가거나 빠질 때 아직 올리지 못한 메모를 지우지 않고 내 메모로 남기도록 고침, 나가기 안내 문구 바로잡음",
+  "sig": "nQkR/EMWUhCDFSkigGo7xU1nwA5oKuNNGBqNIyE0k7D03t44eP7Dq7fWJdXulHzHauY5+/3y9y7cOtFcoTizAg=="
 }

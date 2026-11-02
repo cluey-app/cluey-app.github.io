@@ -31,7 +31,7 @@
 <main id="main">
 <article class="doc-page">
   <h1>개인정보처리방침</h1>
-  <p class="meta">시행일 2026년 10월 24일 (메모 보내기 열쇠를 내 계정의 동기화 공간에 보관)</p>
+  <p class="meta">시행일 2026년 11월 2일 (카카오 · 네이버 로그인, 계정 하나에 로그인 방법 여러 개)</p>
 
   <div class="box"><p><strong>요약</strong> - 메모는 여러분의 PC 에 저장됩니다. 로그인하면 같은 메모가 Cluey 서버(Cloudflare)에도 보관되어 여러 PC 에서 이어 쓰고 친구와 주고받을 수 있습니다. 서버에 올라간 메모는 그 기능을 하려고 서비스가 읽을 수 있는 상태이며, 운영자는 문의, 보안 사고나 신고, 법적 요청이 있을 때만 열어 볼 수 있고 열 때마다 기록을 남깁니다. 비밀번호로 잠근 메모는 서버에도 잠긴 채로 올라가 운영자도 볼 수 없습니다. 로그인하지 않으면 서버에 아무것도 보내지 않습니다.</p></div>
 
@@ -42,12 +42,14 @@
     <tbody>
       <tr><th>메모, 폴더, 양식, 자주 쓰는 장소, 설정</th><td>내 PC (<code>문서\Cluey</code> 폴더)</td><td>프로그램이 동작하려면 필요합니다</td></tr>
       <tr><th>위와 같은 메모 자료와 메모의 그림 (로그인한 경우, 잠근 메모는 암호화된 채로)</th><td>Cluey 서버 (Cloudflare R2, D1)</td><td>같은 계정의 여러 PC 를 맞추고, 보내기와 공유 기능을 하려고</td></tr>
-      <tr><th>구글 계정 이메일 주소</th><td>Cluey 서버, 내 PC (암호화)</td><td>계정을 구분하고 설정 화면에 어느 계정인지 보여 주려고</td></tr>
-      <tr><th>구글 계정 이름 (실명)</th><td>Cluey 서버</td><td>계정 정보로 보관합니다. 설정에서 고칠 수 있습니다</td></tr>
+      <tr><th>계정 이메일 주소 (처음 가입한 로그인 방법의 이메일)</th><td>Cluey 서버, 내 PC (암호화)</td><td>계정을 구분하고 설정 화면에 어느 계정인지 보여 주려고</td></tr>
+      <tr><th>이름 (실명)</th><td>Cluey 서버</td><td>계정 정보로 보관합니다. 가입할 때 로그인한 서비스의 이름을 미리 채우거나 직접 씁니다. 설정에서 고칠 수 있습니다</td></tr>
+      <tr><th>연결된 로그인 (구글 · 카카오 · 네이버 중 연결한 것, 그 서비스의 회원 번호와 이메일 주소, 연결한 때)</th><td>Cluey 서버</td><td>어느 방법으로 로그인해도 같은 계정으로 들어오게 하고, 설정의 연결된 로그인에 보여 주려고</td></tr>
+      <tr><th>계정 알림 (로그인 방법을 연결하거나 끊은 때와 서비스 이름)</th><td>Cluey 서버</td><td>다른 기기에서 로그인 방법이 바뀌면 앱에서 알려 드리려고</td></tr>
       <tr><th>닉네임</th><td>Cluey 서버</td><td>친구에게 보이는 내 이름. 서로 친구인 사람과, 친구와 함께하는 기능에서 같은 자리에 들어온 사람에게 보입니다</td></tr>
       <tr><th>동의한 때와 약관 판</th><td>Cluey 서버</td><td>가입 동의를 확인하려고</td></tr>
       <tr><th>로그인 정보: PC 이름, 처음 로그인한 때, 마지막 사용 때</th><td>Cluey 서버</td><td>어느 PC 가 로그인되어 있는지 보여 주고, 90일 안 쓴 PC 를 끊고, 다른 PC 로그아웃을 하려고. 로그인 확인용 값은 되돌릴 수 없는 모양으로만 저장합니다</td></tr>
-      <tr><th>로그인 정보 (세션 토큰, 구글 토큰)</th><td>내 PC (윈도우 DPAPI 로 암호화)</td><td>켤 때마다 다시 로그인하지 않으려고</td></tr>
+      <tr><th>로그인 정보 (세션 토큰, 구글로 로그인한 경우 구글 토큰)</th><td>내 PC (윈도우 DPAPI 로 암호화)</td><td>켤 때마다 다시 로그인하지 않으려고</td></tr>
       <tr><th>사용 통계 (아래 3번)</th><td>Cluey 서버</td><td>서비스를 고치고 개선하려고</td></tr>
       <tr><th>보내기 열쇠</th><td>공개 열쇠: Cluey 서버, 푸는 열쇠: 내 PC (암호화) · 내 계정의 동기화 공간 (Cluey 서버)</td><td>받는 사람만 메모를 열 수 있게 잠그려고</td></tr>
       <tr><th>친구 목록, 친구 요청 (이메일 주소, 내가 붙인 이름)</th><td>Cluey 서버</td><td>친구 요청, 수락, 보내기에 쓰려고. 내가 붙인 이름은 나만 보이고 내 다른 PC 에서도 같이 보입니다</td></tr>
@@ -65,11 +67,14 @@
   </table></div>
   <p>Cluey 는 이 밖의 정보(위치, 연락처, 기기 식별자 등)를 모으지 않고, 광고나 분석 도구를 쓰지 않습니다.</p>
 
-  <h2>2. 구글 계정 정보를 쓰는 방법</h2>
-  <p>로그인은 구글 계정으로만 하며, Cluey 가 요청하는 권한은 다음뿐입니다.</p>
+  <h2>2. 로그인에 쓰는 계정 정보</h2>
+  <p>로그인은 구글, 카카오, 네이버 계정 중 하나로 합니다. 계정 하나에 여러 로그인 방법을 연결할 수 있고(설정, 계정 · 동기화, 연결된 로그인), 연결된 방법 중 어느 것으로 로그인해도 같은 계정입니다. 각 서비스에서 받는 정보는 다음뿐이며, 비밀번호는 받지 않습니다.</p>
   <ul>
-    <li><code>openid</code>, <code>email</code>, <code>profile</code>: 로그인한 계정의 이메일 주소와 이름을 확인해서 계정을 만들고, 설정 화면에 보여 주고, 메모 보내기와 친구 기능에서 사람을 알아보는 데 씁니다. 구글의 다른 정보는 받지 않습니다.</li>
+    <li><strong>구글</strong>: <code>openid</code>, <code>email</code>, <code>profile</code> 권한으로 회원 번호, 이메일 주소, 이름을 받습니다.</li>
+    <li><strong>카카오</strong>: 회원 번호, 카카오계정(이메일), 닉네임을 받습니다. 닉네임은 가입 화면의 이름 칸을 미리 채우는 데만 씁니다.</li>
+    <li><strong>네이버</strong>: 회원 번호(이용자 식별자), 연락처 이메일 주소, 별명을 받습니다. 별명은 가입 화면의 이름 칸을 미리 채우는 데만 씁니다.</li>
   </ul>
+  <p>받은 이메일 주소로 계정을 구분하고, 설정 화면에 보여 주고, 메모 보내기와 친구 기능에서 사람을 알아보는 데 씁니다. 새 계정은 그 서비스가 본인 것으로 확인한 이메일로만 만들 수 있습니다(네이버는 네이버 메일 주소만). 이미 다른 방법으로 가입한 이메일이면 새 계정을 만들지 않고, 원래 방법으로 한 번 더 로그인해 확인한 뒤 연결합니다. 다른 사람이 쓰는 로그인은 연결할 수 없습니다.</p>
   <p>구글 드라이브 권한은 더 요청하지 않습니다. 예전 버전에서 드라이브로 동기화하며 이미 드라이브 권한을 허락한 분은, 서버에 처음 로그인할 때 그 권한으로 Cluey 전용 숨은 칸의 메모 자료를 한 번 읽어 서버로 옮깁니다. 이때 드라이브의 파일은 읽기만 하고 지우거나 고치지 않으며, 드라이브에 있는 사본은 그대로 남습니다. 옮긴 뒤로는 드라이브를 쓰지 않으며, 남은 사본은 구글 드라이브 웹의 설정, 앱 관리, Cluey, 숨겨진 앱 데이터 삭제로 직접 지울 수 있습니다.</p>
   <p>구글에서 받은 정보를 그 밖의 용도로 쓰거나 팔거나 광고에 쓰지 않습니다. 운영자가 이름이나 이메일을 보는 것은 아래 3번의 열람 원칙에 따를 때와 회원 관리에 필요할 때뿐입니다.</p>
   <p>Cluey 가 Google API 에서 받은 정보를 사용하고 다른 곳으로 옮기는 것은 <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API 서비스 사용자 데이터 정책</a>의 제한적 사용(Limited Use) 요건을 포함해 그 정책을 따릅니다.</p>
@@ -115,8 +120,9 @@
   <h2>4. 보관 기간과 지우는 방법</h2>
   <ul>
     <li>내 PC: 메모는 지울 때까지 남습니다. 프로그램을 지운 뒤 <code>문서\Cluey</code> 폴더를 지우면 모두 사라집니다.</li>
-    <li>로그인 정보: 설정, 계정에서 로그아웃을 누르면 이 PC 의 로그인 정보를 지웁니다. 다른 PC 로그아웃을 누르면 나머지 PC 의 로그인이 끊깁니다. 90일 동안 쓰지 않은 PC 는 저절로 끊깁니다. 구글 계정의 <a href="https://myaccount.google.com/permissions">서드 파티 앱 및 서비스</a>에서 Cluey 를 지워도 됩니다.</li>
-    <li>서버의 계정과 메모 자료: 설정, 계정에서 탈퇴하면 모든 PC 의 로그인이 끊기고 30일 동안 보관합니다(그 안에 다시 로그인하면 되살아납니다). 30일이 지나면 이름, 닉네임, 이메일, 친구 목록, 친구 요청, 내 차단 목록, 보내고 받은 메모, 1:1 기록, 로그인 정보, 서버에 맞춰 둔 메모와 그림을 모두 지웁니다. 내 PC 의 메모는 지워지지 않습니다.</li>
+    <li>로그인 정보: 설정, 계정에서 로그아웃을 누르면 이 PC 의 로그인 정보를 지웁니다. 다른 PC 로그아웃을 누르면 나머지 PC 의 로그인이 끊깁니다. 90일 동안 쓰지 않은 PC 는 저절로 끊깁니다.</li>
+    <li>연결된 로그인: 설정, 계정 · 동기화, 연결된 로그인에서 끊을 수 있습니다(마지막 하나는 끊을 수 없습니다). 끊으면 그 서비스의 회원 번호와 이메일 주소를 지웁니다. 각 서비스에서도 Cluey 연결을 끊을 수 있습니다: 구글 <a href="https://myaccount.google.com/permissions">서드 파티 앱 및 서비스</a>, 카카오 <a href="https://accounts.kakao.com">카카오계정</a>의 연결된 서비스 관리, 네이버 <a href="https://nid.naver.com">네이버 ID</a>의 이력관리, 연결된 서비스 관리.</li>
+    <li>서버의 계정과 메모 자료: 설정, 계정에서 탈퇴하면 모든 PC 의 로그인이 끊기고 30일 동안 보관합니다(그 안에 다시 로그인하면 되살아납니다). 30일이 지나면 이름, 닉네임, 이메일, 연결된 로그인, 계정 알림, 친구 목록, 친구 요청, 내 차단 목록, 보내고 받은 메모, 1:1 기록, 로그인 정보, 서버에 맞춰 둔 메모와 그림을 모두 지웁니다. 내 PC 의 메모는 지워지지 않습니다.</li>
     <li>다만 다른 사람이 나를 차단해 둔 경우, 그 사람의 차단 목록에 있는 내 이메일 주소는 그 사람의 정보라 함께 지워지지 않습니다.</li>
     <li>서버 용량은 사람마다 1GB 입니다. 공유 폴더에 둔 메모와 그림, 지운 메모 보관분은 그 폴더 주인의 용량으로 계산하고, 폴더를 함께 쓰는 사람의 용량에는 넣지 않습니다.</li>
     <li>API 키: 설정에서 끊을 수 있고, 끊은 키는 쓸 수 없습니다. 키 사용 기록은 사람마다 최근 1000건만 남기고 오래된 것부터 지웁니다. 탈퇴하면 키는 바로 끊기고, 30일 뒤 키와 기록을 지웁니다.</li>
@@ -141,9 +147,9 @@
 
   <section class="en" lang="en">
     <h2>Summary in English</h2>
-    <p>Cluey is a note-taking app for Windows. Notes are stored on the user's PC. Signing in is optional and uses a Google account only. If the user signs in, Cluey stores the Google email address, the Google profile name (as the real name), a nickname chosen by the user, the time of consent, and login information (PC name, first and last use) on Cluey's server, which runs on Cloudflare (Workers, D1, R2). Signed-in users' notes, folders, templates, places and images are synced to the server so that several PCs can be kept in step and so that sending notes and features used with friends work. Notes that are not locked can be read by the service for those features. The operator opens a user's notes only to answer the user's inquiry, to handle a security incident or report, or to comply with a legal request, with a reason, and every access is logged. Notes locked with a password are encrypted on the PC and stay encrypted on the server; nobody, including the operator, can read them, and passwords cannot be recovered.</p>
+    <p>Cluey is a note-taking app for Windows. Notes are stored on the user's PC. Signing in is optional and uses a Google, Kakao or Naver account; one Cluey account can have several of these linked. If the user signs in, Cluey stores the account email address, the real name (prefilled from the sign-in service or typed by the user), the linked sign-ins (service, the service's member ID and email, time linked), a nickname chosen by the user, the time of consent, and login information (PC name, first and last use) on Cluey's server, which runs on Cloudflare (Workers, D1, R2). Signed-in users' notes, folders, templates, places and images are synced to the server so that several PCs can be kept in step and so that sending notes and features used with friends work. Notes that are not locked can be read by the service for those features. The operator opens a user's notes only to answer the user's inquiry, to handle a security incident or report, or to comply with a legal request, with a reason, and every access is logged. Notes locked with a password are encrypted on the PC and stay encrypted on the server; nobody, including the operator, can read them, and passwords cannot be recovered.</p>
     <p>Signed-in users' apps send usage statistics once a day, counts only and never content: the number of uses of each feature, the number of notes, characters, folders and locked notes, the app version, and app error types and locations. Signed-out users send nothing. The optional "send a note" feature stores a public key, friend lists and requests, a nickname, block lists, 1:1 records of features used with friends, and notes end-to-end encrypted with the recipient's public key (at most 30 days). Real-time presence and invitations are not stored.</p>
-    <p>Cluey requests only the openid, email and profile Google scopes. It no longer requests Google Drive access. Users who granted Drive access in an earlier version have their Cluey application data in Drive read once, to migrate it to the server; the Drive copies are only read, never changed or deleted, and users can delete them in Google Drive settings. Google user data is never sold or used for advertising. Cluey's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+    <p>From Kakao, Cluey receives only the member ID, the Kakao account email and the nickname; from Naver, only the member ID, the contact email and the nickname (nicknames are used only to prefill the name on sign-up). Cluey requests only the openid, email and profile Google scopes. It no longer requests Google Drive access. Users who granted Drive access in an earlier version have their Cluey application data in Drive read once, to migrate it to the server; the Drive copies are only read, never changed or deleted, and users can delete them in Google Drive settings. Google user data is never sold or used for advertising. Cluey's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
     <p>API keys are optional and created by the user. A program holding a key can read the user's synced notes within the key's folder scope (never locked notes or folders hidden from AI), the user can revoke a key at any time, and key usage is logged without note text. Shared folders are optional: people the user shares a folder with can see its notes and, if allowed, edit them; locked notes cannot be placed in a shared folder; deleted notes in a shared folder are kept for 30 days; shared folder data counts toward the owner's storage. If the owner deletes the account, shared folders they own are deleted after 30 days unless ownership is transferred first.</p>
     <p>Each user has 1 GB of server storage. When a user deletes the account, the account is kept for 30 days (signing in again within that time restores it), then all server data is deleted; notes on the user's PCs are not deleted. Refresh and session tokens on the PC are encrypted with Windows DPAPI. Contact: <a href="mailto:kyg6135@naver.com">kyg6135@naver.com</a>.</p>
   </section>

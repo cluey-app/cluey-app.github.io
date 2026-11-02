@@ -1,8 +1,8 @@
 {
-  "version": "2.2.0",
-  "url": "https://github.com/cluey-app/cluey/releases/download/v2.2.0/Cluey-Setup-2.2.0.exe",
-  "sha256": "206beac8286096dc48f85e6bbb2ba67f1e8598d3b093324d8ca976663cd236c4",
-  "size": 148863719,
-  "notes": "메모마다 전체 너비(본문 위 ↔ 단추)로 글을 창 끝까지 넓게 쓸 수 있습니다. 붙이는 스티커는 뺐습니다",
-  "sig": "3mvZMRkeVblyoEQYWEwGncha7iduhcuo6uWt4Qf0gqBS5k+Gfx0FWJOELcMJGXkUHQc6ahTa0WMX1csjGed2AQ=="
+  "version": "2.3.0",
+  "url": "https://github.com/cluey-app/cluey/releases/download/v2.3.0/Cluey-Setup-2.3.0.exe",
+  "sha256": "fe23040349c2549ba5edad63a82e43d3373c30c92034247202df4f232279c11e",
+  "size": 148863415,
+  "notes": "카카오 · 네이버 로그인과 연결된 로그인(계정 하나에 로그인 여러 개), 작업 표시줄 아이콘을 더 크고 또렷하게, 서식 줄을 늘 펼쳐 두고 글자 크기 칸이 잘리지 않게, 웹에서 붙여넣은 글은 Cluey 기본 글자 크기로, 저장 상태 글자가 잘리던 것 고침",
+  "sig": "qRN/gkYhesGprGmPL2bqlWJ/Ai2+3DPY84q6mb23V14TKs3DAKg8YhAqF/1gcoGtADnpU5axYAxDteUBFRuXBw=="
 }

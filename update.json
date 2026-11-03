@@ -1,8 +1,8 @@
 {
-  "version": "2.3.1",
-  "url": "https://github.com/cluey-app/cluey/releases/download/v2.3.1/Cluey-Setup-2.3.1.exe",
-  "sha256": "48a78dda89c883242ebbb9e444fd413d990a936d5699e1f501d4ef3c37e0784b",
-  "size": 148866281,
-  "notes": "공유 폴더에서 나가거나 빠질 때 아직 올리지 못한 메모를 지우지 않고 내 메모로 남기도록 고침, 나가기 안내 문구 바로잡음",
-  "sig": "nQkR/EMWUhCDFSkigGo7xU1nwA5oKuNNGBqNIyE0k7D03t44eP7Dq7fWJdXulHzHauY5+/3y9y7cOtFcoTizAg=="
+  "version": "2.3.2",
+  "url": "https://github.com/cluey-app/cluey/releases/download/v2.3.2/Cluey-Setup-2.3.2.exe",
+  "sha256": "6a2cc8f498c7036873fb5252f265a1a0730bb838592f8e545b868013df4c1fed",
+  "size": 148919270,
+  "notes": "다른 기기에서 고친 메모가 PC 에 바로 들어옵니다 · 위 할 일을 체크하면 하위 할 일도 같이 체크됩니다",
+  "sig": "Gl1N5eltPkmSjc8X0vXJUU7wtTg/E8uaHfOJJ/Hd+Jpnzj37B8dr+6dhUmBq0eL8km7ZPSbnGyIMxoTlxA3UBw=="
 }

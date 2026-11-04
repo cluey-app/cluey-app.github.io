@@ -1,8 +1,8 @@
 {
-  "version": "2.4.0",
-  "url": "https://github.com/cluey-app/cluey/releases/download/v2.4.0/Cluey-Setup-2.4.0.exe",
-  "sha256": "ecf69b4ee1eb5c28f7abce5ae975dcae1130ce5ad4e927fd72bfee1faaefb2cb",
-  "size": 149003475,
-  "notes": "지운 메모를 30일 동안 '최근 지운 메모'에 보관해 PC · 휴대폰 어디서든 되살릴 수 있습니다 · 왼쪽 단에 지금 메모의 폴더를 표시하고 '폴더 없음' 목록을 더했습니다",
-  "sig": "stQ3IFGdFQS+TGONBKDl4Tx5s6wZllpoDCBL4P2iajlXIZPmD60kRAcuCnRVi8Nc74jm2DpY+EnJAamaXkE5Bw=="
+  "version": "2.4.1",
+  "url": "https://github.com/cluey-app/cluey/releases/download/v2.4.1/Cluey-Setup-2.4.1.exe",
+  "sha256": "f1e5fe9bb0866f286a4e6b75cf793574ed906a519b83939adbdcd700e7435e19",
+  "size": 148997705,
+  "notes": "설정의 '연결된 로그인' 목록을 잠깐 못 받으면 칸이 사라지던 것을 고쳐, 이유와 [다시 시도]를 보여 줍니다",
+  "sig": "7f2axHIiZU5fLZ+ZYCc5qBYsNQVDqsgbU5o2ulGQsTOaEwh1Sms0wd2J0FDZPbbQApG+HiUcfFqm0UjJJJJbBQ=="
 }

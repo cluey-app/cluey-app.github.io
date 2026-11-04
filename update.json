@@ -1,8 +1,8 @@
 {
-  "version": "2.3.2",
-  "url": "https://github.com/cluey-app/cluey/releases/download/v2.3.2/Cluey-Setup-2.3.2.exe",
-  "sha256": "6a2cc8f498c7036873fb5252f265a1a0730bb838592f8e545b868013df4c1fed",
-  "size": 148919270,
-  "notes": "다른 기기에서 고친 메모가 PC 에 바로 들어옵니다 · 위 할 일을 체크하면 하위 할 일도 같이 체크됩니다",
-  "sig": "Gl1N5eltPkmSjc8X0vXJUU7wtTg/E8uaHfOJJ/Hd+Jpnzj37B8dr+6dhUmBq0eL8km7ZPSbnGyIMxoTlxA3UBw=="
+  "version": "2.4.0",
+  "url": "https://github.com/cluey-app/cluey/releases/download/v2.4.0/Cluey-Setup-2.4.0.exe",
+  "sha256": "ecf69b4ee1eb5c28f7abce5ae975dcae1130ce5ad4e927fd72bfee1faaefb2cb",
+  "size": 149003475,
+  "notes": "지운 메모를 30일 동안 '최근 지운 메모'에 보관해 PC · 휴대폰 어디서든 되살릴 수 있습니다 · 왼쪽 단에 지금 메모의 폴더를 표시하고 '폴더 없음' 목록을 더했습니다",
+  "sig": "stQ3IFGdFQS+TGONBKDl4Tx5s6wZllpoDCBL4P2iajlXIZPmD60kRAcuCnRVi8Nc74jm2DpY+EnJAamaXkE5Bw=="
 }

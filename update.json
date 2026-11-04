@@ -1,8 +1,8 @@
 {
-  "version": "2.4.2",
-  "url": "https://github.com/cluey-app/cluey/releases/download/v2.4.2/Cluey-Setup-2.4.2.exe",
-  "sha256": "9449a53d37222a5bd0e11c343324d519987f2c8ab1eaba8f651181722690e2e9",
-  "size": 148904200,
-  "notes": "목록 메모를 폴더로 끌 때 제목만 든 작은 표가 붙어 놓을 폴더가 보입니다 · 폴더 이름 바꾸기가 한 번에 됩니다",
-  "sig": "rGJSJG6t/cTAo3jtU41orMzy1BZ9y7IcRUI0rnWANUdOOSCOmEgk+OtrwFwUNkij/mPnv0aoc2qvNDHhFaO4AQ=="
+  "version": "2.4.3",
+  "url": "https://github.com/cluey-app/cluey/releases/download/v2.4.3/Cluey-Setup-2.4.3.exe",
+  "sha256": "9c7442ba636d62f1fc81b8546547830ed3542694a306a930cde6c1de65e51970",
+  "size": 149013796,
+  "notes": "새 판을 받아 둔 뒤에도 업데이트를 확인해, 더 새 판이 나오면 그 판을 받습니다 · 업데이트 확인 단추가 흐린 채 남던 것을 고쳤습니다",
+  "sig": "VM2M2ZC0FpUac7QF2j0dS2UkfKxWEfWzyQcPgaCqCGoKJjcHPFfn8V1M4IQ/0UW0wYUE/YNupNh6uInz05z9CQ=="
 }

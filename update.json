@@ -1,8 +1,8 @@
 {
-  "version": "2.4.3",
-  "url": "https://github.com/cluey-app/cluey/releases/download/v2.4.3/Cluey-Setup-2.4.3.exe",
-  "sha256": "9c7442ba636d62f1fc81b8546547830ed3542694a306a930cde6c1de65e51970",
-  "size": 149013796,
-  "notes": "새 판을 받아 둔 뒤에도 업데이트를 확인해, 더 새 판이 나오면 그 판을 받습니다 · 업데이트 확인 단추가 흐린 채 남던 것을 고쳤습니다",
-  "sig": "VM2M2ZC0FpUac7QF2j0dS2UkfKxWEfWzyQcPgaCqCGoKJjcHPFfn8V1M4IQ/0UW0wYUE/YNupNh6uInz05z9CQ=="
+  "version": "2.5.0",
+  "url": "https://github.com/cluey-app/cluey/releases/download/v2.5.0/Cluey-Setup-2.5.0.exe",
+  "sha256": "cda7e7343ed223ecf5edd844071a95ee659fab09925a891a42fd6697628169ec",
+  "size": 148892803,
+  "notes": "여러 메모를 한꺼번에 옮기기 - 목록에서 Ctrl·Shift 클릭으로 여러 메모를 고르면 위에 이동 · 공유 · 삭제 단추가 나옵니다. 옮길 폴더가 없으면 그 자리에서 새 폴더나 새 공유 폴더를 만들 수 있고, 옮긴 뒤 되돌릴 수 있습니다.",
+  "sig": "aEkg4muj583frserprnGIi0iovesrTf5hvSR5MBnjXK+ns1WzgLjaaqeCkPpmFYkY08lA5Y8P0RypOkHIzegCg=="
 }

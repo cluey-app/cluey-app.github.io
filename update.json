@@ -1,8 +1,8 @@
 {
-  "version": "2.5.0",
-  "url": "https://github.com/cluey-app/cluey/releases/download/v2.5.0/Cluey-Setup-2.5.0.exe",
-  "sha256": "cda7e7343ed223ecf5edd844071a95ee659fab09925a891a42fd6697628169ec",
-  "size": 148892803,
-  "notes": "여러 메모를 한꺼번에 옮기기 - 목록에서 Ctrl·Shift 클릭으로 여러 메모를 고르면 위에 이동 · 공유 · 삭제 단추가 나옵니다. 옮길 폴더가 없으면 그 자리에서 새 폴더나 새 공유 폴더를 만들 수 있고, 옮긴 뒤 되돌릴 수 있습니다.",
-  "sig": "aEkg4muj583frserprnGIi0iovesrTf5hvSR5MBnjXK+ns1WzgLjaaqeCkPpmFYkY08lA5Y8P0RypOkHIzegCg=="
+  "version": "2.5.1",
+  "url": "https://github.com/cluey-app/cluey/releases/download/v2.5.1/Cluey-Setup-2.5.1.exe",
+  "sha256": "0e61c784f5aab787041597e9d6d6a3c20af20ffb96c7f70250d53cd8dda1054f",
+  "size": 148908720,
+  "notes": "휴대폰에서 고친 메모가 PC 에 바로 보이지 않던 문제 - PC 에서 그 메모를 열어 두고 커서만 있을 때 새 내용이 화면에 들어오지 않던 것을 고쳤습니다.",
+  "sig": "y6k/ih7sh/KTkeUIDjORZE6mog8QD4wwLox3WoxgdIvoRnll1KfNyh6QdimU25B5BZsDJ/ueTQr1x9YVip6UBQ=="
 }

@@ -1,8 +1,8 @@
 {
-  "version": "2.5.1",
-  "url": "https://github.com/cluey-app/cluey/releases/download/v2.5.1/Cluey-Setup-2.5.1.exe",
-  "sha256": "0e61c784f5aab787041597e9d6d6a3c20af20ffb96c7f70250d53cd8dda1054f",
-  "size": 148908720,
-  "notes": "휴대폰에서 고친 메모가 PC 에 바로 보이지 않던 문제 - PC 에서 그 메모를 열어 두고 커서만 있을 때 새 내용이 화면에 들어오지 않던 것을 고쳤습니다.",
-  "sig": "y6k/ih7sh/KTkeUIDjORZE6mog8QD4wwLox3WoxgdIvoRnll1KfNyh6QdimU25B5BZsDJ/ueTQr1x9YVip6UBQ=="
+  "version": "2.6.0",
+  "url": "https://github.com/cluey-app/cluey/releases/download/v2.6.0/Cluey-Setup-2.6.0.exe",
+  "sha256": "e63deffaef35605a6cd0c8614d95c6e39cb7e40dcbf562130af379dd362fcacf",
+  "size": 148926687,
+  "notes": "정렬에 '최근 수정순'을 넣었습니다. 고친 시각이 최근인 메모부터 보이고, 날짜 표시와 날짜 묶음도 고친 날짜를 따릅니다 (PC · 휴대폰).\n엔터로 나눈 문단 사이 간격을 저절로 넘어간 줄 사이와 같게 맞췄습니다.",
+  "sig": "Pof1tmbSITNG/7Y2sIN8XqtaDqJh8LjOEHgeqtXz3AksocrAW4XaIZgN/ky+fTvoKxcxteB3g879f1NNecT7BA=="
 }

@@ -1,8 +1,8 @@
 {
-  "version": "2.7.0",
-  "url": "https://github.com/cluey-app/cluey/releases/download/v2.7.0/Cluey-Setup-2.7.0.exe",
-  "sha256": "8763667c0ea39295e9df9e7cec0ab1e3748f588b89db6b0922aec8748a4efca3",
-  "size": 148967387,
-  "notes": "손글씨 메모를 새로 넣었습니다. 새 메모에서 손글씨를 고르면 끝없는 판이나 종이 쪽에 펜 · 형광펜 · 지우개 · 올가미 · 글 상자 · 사진으로 쓸 수 있습니다 (PC · 휴대폰 · 태블릿).\n펜이 있는 기기는 펜으로 쓰고 손가락으로 화면을 옮기며, 손바닥이 닿아도 선이 그어지지 않습니다.\n두 기기에서 같이 고쳐도 선 하나 단위로 합쳐져 양쪽 내용이 남습니다.",
-  "sig": "2RCMeJstfQQwl2dcKA+8/oiIUHKrZwPkkF9qT7UBAFXj/obBOUA86c2z2SUzlcsmBo4Q157aNk81gDf6oYIYCw=="
+  "version": "2.8.0",
+  "url": "https://github.com/cluey-app/cluey/releases/download/v2.8.0/Cluey-Setup-2.8.0.exe",
+  "sha256": "d22f78f44b1475b0c3bc95e10b5128bde882bafa45bf0e4cc7a8cdd008dcebde",
+  "size": 149041990,
+  "notes": "손글씨: 멈추면 도형으로 바꾸기, 화면 아래 도구 막대, 자주 쓰는 펜, 펜 종류 여섯(볼펜·만년필·붓펜·연필·크레용·수채화). 아이패드·갤럭시탭에서 메모를 화면 전체로 보고 메뉴 단추로 폴더를 엽니다.",
+  "sig": "dzaho7ZhzrFTeC2uFYVYv63goMNJihRwxRjlkMpviEYr5WpQWQmIVpDnXEDIXVaBlZLFs7P+HRlgVbfBR3LXBw=="
 }

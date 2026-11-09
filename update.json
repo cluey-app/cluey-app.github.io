@@ -1,8 +1,8 @@
 {
-  "version": "2.8.0",
-  "url": "https://github.com/cluey-app/cluey/releases/download/v2.8.0/Cluey-Setup-2.8.0.exe",
-  "sha256": "d22f78f44b1475b0c3bc95e10b5128bde882bafa45bf0e4cc7a8cdd008dcebde",
-  "size": 149041990,
-  "notes": "손글씨: 멈추면 도형으로 바꾸기, 화면 아래 도구 막대, 자주 쓰는 펜, 펜 종류 여섯(볼펜·만년필·붓펜·연필·크레용·수채화). 아이패드·갤럭시탭에서 메모를 화면 전체로 보고 메뉴 단추로 폴더를 엽니다.",
-  "sig": "dzaho7ZhzrFTeC2uFYVYv63goMNJihRwxRjlkMpviEYr5WpQWQmIVpDnXEDIXVaBlZLFs7P+HRlgVbfBR3LXBw=="
+  "version": "2.9.0",
+  "url": "https://github.com/cluey-app/cluey/releases/download/v2.9.0/Cluey-Setup-2.9.0.exe",
+  "sha256": "486152c4f31effb7f048fdf75164ec99e5c54fb53bd2719b3153ab16be64f52d",
+  "size": 149018718,
+  "notes": "손글씨 메모에 페이지를 더하고 지우고 순서를 바꿀 수 있습니다. 넘기는 방향은 설정에서 위아래 · 좌우로 고릅니다. 메모의 일시 · 장소 · 참석자 같은 정보 칸을 없애 화면을 단순하게 했습니다. 목록 날짜는 만든 날 기준이고, 검색은 제목 · 본문 · 폴더로 찾습니다. 손글씨 메모 제목은 위쪽 막대에서 바로 고칩니다. '손가락으로 쓰기'를 꺼도 손가락으로 선이 그어지던 문제를 고쳤습니다.",
+  "sig": "VaCHndRKRTJjyhPfh2zvA+goNvCxKv6VXBfaMR6rKAhlQGI5nU/QJvJZ+ZlumUmH30WQzXvEaRsr0tHcN1weDg=="
 }
